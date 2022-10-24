@@ -1,0 +1,13 @@
+Ejercicio 2
+1. Cadena de seis caracteres = Prueba
+2. Un número real representado mediante IEEE 754de doble precisión = 1.9841250000000000+03
+3. un entero con signo de 32 bits = 50005
+4. un número real representado mediante IEEE 754 de simple precisión = 2.00925000e+03
+5. un entero con signo de 16 bits = 20002
+
+Ejercicio 3
+1. una cadena de seis caracteres que representen la palabra "PRUEBA" = 50 52 55 45 42 41
+2. un número real representado mediante IEEE 754 de doble precisión, con valor 8.75 = 00 00 00 00 00 80 21 40
+3. un entero con signo de 32 bits, con valor -140506 = 26 DB FD FF
+4. un número real representado mediante IEEE 754 de simple precisión, con valor 5 = 00 00 A0 40 
+5. un entero con signo de 16 bits, con valor 36 = 24 00 
