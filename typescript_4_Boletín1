@@ -1,0 +1,303 @@
+Script started on 2022-11-08 10:37:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="45"]
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ### Ejercicio 1 ###
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ mkdir /tmp/tur[Ktorial
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd /tmp/tutorial
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ mkdir dir1 dir2 dir3
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ mkdir
+[?2004lmkdir: falta un operando
+Pruebe 'mkdir --help' para más información.
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd /etc[7mcd /etc ~/Desktop[27mcd /etc ~/Desktop[C[1P[1P[1P[1P[1P[C[1P[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbash: cd: demasiados argumentos
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ mkdir -p dir4 dir [K5 dir6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd dir [K4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ ls
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ cd dir5
+[?2004lbash: cd: dir5: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ cd /tmp/tutorial
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd[K[Kmkdir -p dir4/dir55/[K[K/dir6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd dir4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ ls
+[?2004l[0m[01;34mdir5[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ cd dir5
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5[00m$ ls
+[?2004l[0m[01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5[00m$ cd dir6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir otra carpeta
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l[0m[01;34mcarpeta[0m  [01;34motra[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir "carpeta 1"
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34mcarpeta[0m  [01;34m'carpeta 1'[0m   [01;34motra[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir "carpeta 2
+[?2004l[?2004h> [K> [K> ^C[?2004l[?2004h[?2004l
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir \carpeta 3
+[?2004lmkdir: no se puede crear el directorio «carpeta»: El archivo ya existe
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir "carpeta 4 [K2[K" "carpeta 5"
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m   [01;34mcarpeta[0m  [01;34m'carpeta 1'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 5'[0m   [01;34motra[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mmkdir -p "carpeta 6"/"carpeta 7"[27mmkdir -p "carpeta 6"/"carpeta 7"
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mkdir carpeta\ 3
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ la
+[?2004l [0m[01;34m3[0m   [01;34mcarpeta[0m  [01;34m'carpeta 1'[0m  [01;34m'carpeta 3'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 5'[0m  [01;34m'carpeta 6'[0m   [01;34motra[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m   [01;34mcarpeta[0m  [01;34m'carpeta 1'[0m  [01;34m'carpeta 3'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 5'[0m  [01;34m'carpeta 6'[0m   [01;34motra[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ### Ejercicio 2 @@[K[K###
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls > salida.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat salida.txt
+[?2004l3
+carpeta
+carpeta 1
+carpeta 3
+carpeta 4
+carpeta 5
+carpeta 6
+otra
+salida.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "esto es una prueba"
+[?2004lesto es una prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Esto es una prueba" > test_1.txt[27mecho "Esto es una prueba" > test_1.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Esta es una segunda prueba" > test_2.txt[27mecho "Esta es una segunda prueba" > test_2.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Esta es una segunda prueba" > test_2.txt[27mecho "Esta es una segunda prueba" > test_2.txt[C[1P.txt3.txt[C[C[1P[1P[1P[1P[1P[1P[1P[1@t[1@e[1@r[1@c[1@e[1@r[1@a
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m   [01;34mcarpeta[0m  [01;34m'carpeta 1'[0m  [01;34m'carpeta 3'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 5'[0m  [01;34m'carpeta 6'[0m   [01;34motra[0m   salida.txt   test_1.txt   test_2.txt   test_3.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat test_1.txt test_2.txt test_3.txt[27mcat test_1.txt test_2.txt test_3.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat test_1.txt test_2.txt test_3.txt[27mcat test_1.txt test_2.txt test_3.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat test_?.txt[27mcat test_?.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ c[7mat test_*[27mat test_*
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat t* > combinado.txt[27mcat t* > combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat combinat[Kdo.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat combinado.txtt* > combinado.txtest_*[K?.txt1.txt test_2.txt test_3.txtls[Kecho "Esta es una tercera prueba" > test_3.txtsegunda prueba" > test_2.txt[8Po es una prueba" > test_1.txt[13Pesto es una prueba"[11Pcat salida.txt[1@ls >[C[C[C[C[C[C[C[C[C[C[C### Ejercicio 2 ###ls[Kas### Ejercicio 2 ###[4Pls > salida.txt[1Pcat[C[C[C[C[C[C[C[C[C[C[Cecho "esto es una prueba"[11Pcat salida.txt
+[?2004l3
+carpeta
+carpeta 1
+carpeta 3
+carpeta 4
+carpeta 5
+carpeta 6
+otra
+salida.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat salida.txtcombinado.txtt* > combinado.txtest_*[K?.txt1.txt test_2.txt test_3.txtls[Kecho "Esta es una tercera prueba" > test_3.txtsegunda prueba" > test_2.txt[8Po es una prueba" > test_1.txt[13Pesto es una prueba"[11Pcat salida.txt[1@ls >[C[C[C[C[C[C[C[C[C[C[C[1Pcat[C[C[C[C[C[C[C[C[C[C[Cecho "esto es una prueba"Esto es una prueba" > test_1.txta es una segunda prueba" > test_2.txttercera prueba" > test_3.txtls[Kcat test_1.txt test_2.txt test_3.txt?.txt[K1.txt test_2.txt test_3.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat test_1.txt test_2.txt test_3.txtsalida.txt[Kcombinado.txtt* > combinado.txtest_*[K?.txt1.txt test_2.txt test_3.txtls[Kcat test_1.txt test_2.txt test_3.txt?.txt[K
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat t* >> combinado.txt[27mcat t* >> combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "¡He añadido una línea!" >> combinado.txt[27mecho "¡He añadido una línea!" >> combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mcat combinado.txt[27mcat combinado.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat combinado.txt[29@echo "¡He añadido una línea!" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat t* >> combinado.txt[6Pcombinado.txt[29@echo "¡He añadido una línea!" >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "¡He añadido una línea!" >> combinado.txt[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcombinado.txtt* >> combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat t* >> combinado.txt[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "¡He añadido una línea!" >> combinado.txt[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat t* >> combinado.txt[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "¡He añadido una línea!" >> combinado.txt[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat t* >> combinado.txt[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "¡He añadido una línea!" >> combinado.txt[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cat t* >> combinado.txt[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ echo "¡He añadido una línea!" >> combinado.txt[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23@echo "¡He añadido una línea!"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat t*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcombinado.txt
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ less combinado.txt
+[?2004l[?1049h[22;0;0t[?1h=Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+[7mcombinado.txt (END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Minúsculas" > a.txt[27mecho "Minúsculas" > a.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Mayúsculas" > A.TXT[27mecho "Mayúsculas" > A.TXT
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mecho "Mayúsculas y minúsculas" > A.txt[27mecho "Mayúsculas y minúsculas" > A.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ [7mmv combinado.txt dir1[27mmv combinado.txt dir1
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls dir1
+[?2004ldir1
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ### Ejercicio 3 ###
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ### Ejercicio 3 ###[12Pls dir1[14@mv combinado.txt[C[C[C[C[C
+[?2004lmv: no se puede efectuar `stat' sobre 'combinado.txt': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv combinado.txt dir1[2P### Ejercicio 3 ###[12Pls dir1
+[?2004ldir1
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ Ct[K[Kcat dir1
+[?2004lEsto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+Esto es una prueba
+Esta es una segunda prueba
+Esta es una tercera prueba
+¡He añadido una línea!
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv dir [K1 [K[K[K[K[K[K[K[Kmv dir1 combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m       A.txt   [01;34mcarpeta[0m     [01;34m'carpeta 3'[0m  [01;34m'carpeta 5'[0m   combinado.txt   salida.txt   test_2.txt
+ a.txt   A.TXT  [01;34m'carpeta 1'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 6'[0m   [01;34motra[0m            test_1.txt   test_3.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv combinado [K.txt ../..//..[K[K[K[K/..
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cd ../../..
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004lcombinado.txt  [0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ mv combinado.txt dir1
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls dir1
+[?2004lcombinado.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ mv dir1/*
+[?2004lmv: falta el operando archivo de destino después de 'dir1/combinado.txt'
+Pruebe 'mv --help' para más información.
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ [7mcp combinado.txt backup_combinado.txt[27mcp combinado.txt backup_combinado.txt
+[?2004lcp: no se puede efectuar `stat' sobre 'combinado.txt': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd  dir1
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir1[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir1[00m$ cd  dir1ls[Kcp combinado.txt backup_combinado.txt
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir1[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir1[00m$ [7mmv "carpeta 1" carpeta_1[27mmv "carpeta 1" carpeta_1
+[?2004lmv: no se puede efectuar `stat' sobre 'carpeta 1': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir1[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir1[00m$ ls dir4
+[?2004lls: no se puede acceder a 'dir4': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir1[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir1[00m$ cd/tmp/tutorial
+[?2004lbash: cd/tmp/tutorial: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir1[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir1[00m$ cd /tmp/tutorial
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ls
+[?2004l[0m[01;34mdir1[0m  [01;34mdir2[0m  [01;34mdir3[0m  [01;34mdir4[0m  [01;34mdir5[0m  [01;34mdir6[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd fir4
+[?2004lbash: cd: fir4: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd dir4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ ls
+[?2004l[0m[01;34mdir5[0m
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ cd dir5
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5[00m$ cd dir6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m       A.txt   [01;34mcarpeta[0m     [01;34m'carpeta 3'[0m  [01;34m'carpeta 5'[0m   [01;34motra[0m         test_1.txt   test_3.txt
+ a.txt   A.TXT  [01;34m'carpeta 1'[0m  [01;34m'carpeta 4'[0m  [01;34m'carpeta 6'[0m   salida.txt   test_2.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ lscd dir65ls[Kcd dir4fir4ls[Kcd /tmp/tutorial[1P/tmp/tutorial[8Pls dir4mv "carpeta 1" carpeta_1
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv "carpeta 1" carpeta_1[1P1_1[C[K2[C[C[C[C[C[1P[1@2[C
+[?2004lmv: no se puede efectuar `stat' sobre 'carpeta 2': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv "carpeta 2" carpeta_21" carpeta_1[K3[1P[1@3
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv "carpeta 3" carpeta_32" carpeta_21" carpeta_1[K4[1P[1@4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv "carpeta 4" carpeta_44[K[K5[1P[1@5
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m       A.txt   [01;34mcarpeta[0m      [01;34mcarpeta_1[0m   [01;34mcarpeta_4[0m   [01;34motra[0m         test_1.txt   test_3.txt
+ a.txt   A.TXT  [01;34m'carpeta 6'[0m   [01;34mcarpeta_3[0m   [01;34mcarpeta_5[0m   salida.txt   test_2.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cd /tmp/tutorial
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ rm[7mdir4/dir5/dir6/combinado.txt combinado_backup.txt+[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdir4/dir5/dir6/combinado.txt combinado_backup.txt+ [C[C[1@ 
+[?2004lrm: no se puede borrar 'dir4/dir5/dir6/combinado.txt': No existe el archivo o el directorio
+rm: no se puede borrar 'combinado_backup.txt+': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ ### ejercicio 4###
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ [7mrmdir carpeta_*[27mrmdir carpeta_*
+[?2004lrmdir: fallo al borrar 'carpeta_*': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial[00m$ cd /dir[K[K[K[Kdir4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4[00m$ cd dir5
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5[00m$ cd dir5
+[?2004lbash: cd: dir5: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5[00m$ cd dir6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ cd dir654rmdir carpeta_*### ejercicio 4###rm dir4/dir5/dir6/combinado.txt combinado_backup.txt+ 
+[?2004lrm: no se puede borrar 'dir4/dir5/dir6/combinado.txt': No existe el archivo o el directorio
+rm: no se puede borrar 'combinado_backup.txt+': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ rm dir4/dir5/dir6/combinado.txt combinado_backup.txt+ cd dir6[K54rmdir carpeta_*
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ rm -r crpet_6
+[?2004lrm: no se puede borrar 'crpet_6': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l [0m[01;34m3[0m   a.txt   A.txt   A.TXT   [01;34mcarpeta[0m  [01;34m'carpeta 6'[0m   [01;34motra[0m   salida.txt   test_1.txt   test_2.txt   test_3.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ rm -r crpet[K[K[K[Krp[C[K[K[Kcaa[Krpeta_6
+[?2004lrm: no se puede borrar 'carpeta_6': No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ rm -r c[K[K[K[K[K[K[Km[Krm -r carpeta_6ls[Krm -r crpet_6dir carpeta_* dir4/dir5/dir6/combinado.txt combinado_backup.txt+ cd dir6[K54rmdir carpeta_*### ejercicio 4###rm dir4/dir5/dir6/combinado.txt combinado_backup.txt+ cd /tmp/tutorial[Kls[Kmv "carpeta 5" carpeta_5[K6[C[1P[1@_[C[1P[1P[1@ [1@6
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ mv "carpeta 6" carpeta_6[9Prm -r[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ ls
+[?2004l[0m[01;34m3[0m  a.txt  A.txt  A.TXT  [01;34mcarpeta[0m  [01;34motra[0m  salida.txt  test_1.txt  test_2.txt  test_3.txt
+[?2004h]0;alumno@alumno-VirtualBox: /tmp/tutorial/dir4/dir5/dir6[01;32malumno@alumno-VirtualBox[00m:[01;34m/tmp/tutorial/dir4/dir5/dir6[00m$ exit
+[?2004lexit
+
+Script done on 2022-11-08 11:21:24+01:00 [COMMAND_EXIT_CODE="0"]
