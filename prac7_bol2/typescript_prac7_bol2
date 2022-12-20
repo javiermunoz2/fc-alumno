@@ -1,0 +1,920 @@
+Script started on 2022-12-20 20:28:41+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="150" LINES="41"]
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 list -v
+[?2004lNo se ha encontrado la orden «pip3», pero se puede instalar con:
+sudo apt install python3-pip
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt install insta[K[K[K[K[K[K python [K3-pip
+[?2004l[sudo] contraseña para alumno: 
+Leyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... 83%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  python3-setuptools python3-wheel
+Paquetes sugeridos:
+  python-setuptools-doc
+Se instalarán los siguientes paquetes NUEVOS:
+  python3-pip python3-setuptools python3-wheel
+0 actualizados, 3 nuevos se instalarán, 0 para eliminar y 158 no actualizados.
+Se necesita descargar 1.677 kB de archivos.
+Se utilizarán 8.965 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+[33m0% [Trabajando][0m               Des:1 http://es.archive.ubuntu.com/ubuntu jammy/main amd64 python3-setuptools all 59.6.0-1.2 [339 kB]
+[33m0% [1 python3-setuptools 0 B/339 kB 0%][0m[33m                                       23% [Trabajando][0m                Des:2 http://es.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-wheel all 0.37.1-2 [31,9 kB]
+[33m23% [2 python3-wheel 0 B/31,9 kB 0%][0m[33m                                    31% [Trabajando][0m                Des:3 http://es.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pip all 22.0.2+dfsg-1 [1.306 kB]
+[33m31% [3 python3-pip 0 B/1.306 kB 0%][0m[33m                                   100% [Trabajando][0m                 Descargados 1.677 kB en 1s (1.684 kB/s)
+
+7[0;40r8[1ASeleccionando el paquete python3-setuptools previamente no seleccionado.
+(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 251104 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../python3-setuptools_59.6.0-1.2_all.deb ...
+7[41;0f[42m[30mProgreso: [  0%][49m[39m [................................................................................................................................] 87[41;0f[42m[30mProgreso: [  8%][49m[39m [#########.......................................................................................................................] 8Desempaquetando python3-setuptools (59.6.0-1.2) ...
+7[41;0f[42m[30mProgreso: [ 15%][49m[39m [###################.............................................................................................................] 8Seleccionando el paquete python3-wheel previamente no seleccionado.
+Preparando para desempaquetar .../python3-wheel_0.37.1-2_all.deb ...
+7[41;0f[42m[30mProgreso: [ 23%][49m[39m [#############################...................................................................................................] 8Desempaquetando python3-wheel (0.37.1-2) ...
+7[41;0f[42m[30mProgreso: [ 31%][49m[39m [#######################################.........................................................................................] 8Seleccionando el paquete python3-pip previamente no seleccionado.
+Preparando para desempaquetar .../python3-pip_22.0.2+dfsg-1_all.deb ...
+7[41;0f[42m[30mProgreso: [ 38%][49m[39m [#################################################...............................................................................] 8Desempaquetando python3-pip (22.0.2+dfsg-1) ...
+7[41;0f[42m[30mProgreso: [ 46%][49m[39m [###########################################################.....................................................................] 8Configurando python3-setuptools (59.6.0-1.2) ...
+7[41;0f[42m[30mProgreso: [ 54%][49m[39m [####################################################################............................................................] 87[41;0f[42m[30mProgreso: [ 62%][49m[39m [##############################################################################..................................................] 8Configurando python3-wheel (0.37.1-2) ...
+7[41;0f[42m[30mProgreso: [ 69%][49m[39m [########################################################################################........................................] 87[41;0f[42m[30mProgreso: [ 77%][49m[39m [##################################################################################################..............................] 8Configurando python3-pip (22.0.2+dfsg-1) ...
+7[41;0f[42m[30mProgreso: [ 85%][49m[39m [############################################################################################################....................] 87[41;0f[42m[30mProgreso: [ 92%][49m[39m [######################################################################################################################..........] 8Procesando disparadores para man-db (2.10.2-1) ...
+
+7[0;41r8[1A[J[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt install python3-pip[16Ppip3 list -v
+[?2004lPackage                Version         Location                       Installer
+---------------------- --------------- ------------------------------ ---------
+appdirs                1.4.4           /usr/lib/python3/dist-packages
+apturl                 0.5.2           /usr/lib/python3/dist-packages
+attrs                  21.2.0          /usr/lib/python3/dist-packages
+beautifulsoup4         4.10.0          /usr/lib/python3/dist-packages
+beniget                0.4.1           /usr/lib/python3/dist-packages
+blinker                1.4             /usr/lib/python3/dist-packages
+bottle                 0.12.19         /usr/lib/python3/dist-packages
+Brlapi                 0.8.3           /usr/lib/python3/dist-packages
+Brotli                 1.0.9           /usr/lib/python3/dist-packages
+certifi                2020.6.20       /usr/lib/python3/dist-packages
+chardet                4.0.0           /usr/lib/python3/dist-packages
+click                  8.0.3           /usr/lib/python3/dist-packages
+colorama               0.4.4           /usr/lib/python3/dist-packages
+command-not-found      0.3             /usr/lib/python3/dist-packages
+cryptography           3.4.8           /usr/lib/python3/dist-packages
+cupshelpers            1.0             /usr/lib/python3/dist-packages
+cycler                 0.11.0          /usr/lib/python3/dist-packages
+dbus-python            1.2.18          /usr/lib/python3/dist-packages
+decorator              4.4.2           /usr/lib/python3/dist-packages
+defer                  1.0.6           /usr/lib/python3/dist-packages
+defusedxml             0.7.1           /usr/lib/python3/dist-packages
+distro                 1.7.0           /usr/lib/python3/dist-packages
+distro-info            1.1build1       /usr/lib/python3/dist-packages
+docker                 5.0.3           /usr/lib/python3/dist-packages
+fonttools              4.29.1          /usr/lib/python3/dist-packages
+fs                     2.4.12          /usr/lib/python3/dist-packages
+future                 0.18.2          /usr/lib/python3/dist-packages
+gast                   0.5.2           /usr/lib/python3/dist-packages
+Glances                3.2.4.2         /usr/lib/python3/dist-packages
+html5lib               1.1             /usr/lib/python3/dist-packages
+httplib2               0.20.2          /usr/lib/python3/dist-packages
+idna                   3.3             /usr/lib/python3/dist-packages
+importlib-metadata     4.6.4           /usr/lib/python3/dist-packages
+influxdb               5.3.1           /usr/lib/python3/dist-packages
+jeepney                0.7.1           /usr/lib/python3/dist-packages flit
+keyring                23.5.0          /usr/lib/python3/dist-packages
+kiwisolver             1.3.2           /usr/lib/python3/dist-packages
+language-selector      0.1             /usr/lib/python3/dist-packages
+launchpadlib           1.10.16         /usr/lib/python3/dist-packages
+lazr.restfulclient     0.14.4          /usr/lib/python3/dist-packages
+lazr.uri               1.0.6           /usr/lib/python3/dist-packages
+louis                  3.20.0          /usr/lib/python3/dist-packages
+lxml                   4.8.0           /usr/lib/python3/dist-packages
+lz4                    3.1.3+dfsg      /usr/lib/python3/dist-packages
+macaroonbakery         1.3.1           /usr/lib/python3/dist-packages
+matplotlib             3.5.1           /usr/lib/python3/dist-packages
+meld                   3.20.4          /usr/lib/python3/dist-packages
+more-itertools         8.10.0          /usr/lib/python3/dist-packages
+mpmath                 0.0.0           /usr/lib/python3/dist-packages
+msgpack                1.0.3           /usr/lib/python3/dist-packages
+netifaces              0.11.0          /usr/lib/python3/dist-packages
+numpy                  1.21.5          /usr/lib/python3/dist-packages
+oauthlib               3.2.0           /usr/lib/python3/dist-packages
+olefile                0.46            /usr/lib/python3/dist-packages
+packaging              21.3            /usr/lib/python3/dist-packages
+pexpect                4.8.0           /usr/lib/python3/dist-packages
+Pillow                 9.0.1           /usr/lib/python3/dist-packages
+pip                    22.0.2          /usr/lib/python3/dist-packages
+ply                    3.11            /usr/lib/python3/dist-packages
+protobuf               3.12.4          /usr/lib/python3/dist-packages
+psutil                 5.9.0           /usr/lib/python3/dist-packages
+ptyprocess             0.7.0           /usr/lib/python3/dist-packages flit
+pyasn1                 0.4.8           /usr/lib/python3/dist-packages
+pycairo                1.20.1          /usr/lib/python3/dist-packages
+pycryptodomex          3.11.0          /usr/lib/python3/dist-packages
+pycups                 2.0.1           /usr/lib/python3/dist-packages
+PyGObject              3.42.1          /usr/lib/python3/dist-packages
+PyJWT                  2.3.0           /usr/lib/python3/dist-packages
+pymacaroons            0.13.0          /usr/lib/python3/dist-packages
+PyNaCl                 1.5.0           /usr/lib/python3/dist-packages
+pyparsing              2.4.7           /usr/lib/python3/dist-packages
+pyRFC3339              1.1             /usr/lib/python3/dist-packages
+pysmi                  0.3.2           /usr/lib/python3/dist-packages
+pysnmp                 4.4.12          /usr/lib/python3/dist-packages
+pystache               0.6.0           /usr/lib/python3/dist-packages
+python-apt             2.3.0+ubuntu2.1 /usr/lib/python3/dist-packages
+python-dateutil        2.8.1           /usr/lib/python3/dist-packages
+python-debian          0.1.43ubuntu1   /usr/lib/python3/dist-packages
+pythran                0.10.0          /usr/lib/python3/dist-packages
+pytz                   2022.1          /usr/lib/python3/dist-packages
+pyxdg                  0.27            /usr/lib/python3/dist-packages
+PyYAML                 5.4.1           /usr/lib/python3/dist-packages
+reportlab              3.6.8           /usr/lib/python3/dist-packages
+requests               2.25.1          /usr/lib/python3/dist-packages
+scipy                  1.8.0           /usr/lib/python3/dist-packages
+SecretStorage          3.3.1           /usr/lib/python3/dist-packages
+setuptools             59.6.0          /usr/lib/python3/dist-packages
+six                    1.16.0          /usr/lib/python3/dist-packages
+soupsieve              2.3.1           /usr/lib/python3/dist-packages
+sympy                  1.9             /usr/lib/python3/dist-packages
+systemd-python         234             /usr/lib/python3/dist-packages
+ubuntu-advantage-tools 27.10           /usr/lib/python3/dist-packages
+ubuntu-drivers-common  0.0.0           /usr/lib/python3/dist-packages
+ufoLib2                0.13.1          /usr/lib/python3/dist-packages
+ufw                    0.36.1          /usr/lib/python3/dist-packages
+unattended-upgrades    0.1             /usr/lib/python3/dist-packages
+unicodedata2           14.0.0          /usr/lib/python3/dist-packages
+urllib3                1.26.5          /usr/lib/python3/dist-packages
+wadllib                1.3.6           /usr/lib/python3/dist-packages
+webencodings           0.5.1           /usr/lib/python3/dist-packages
+websocket-client       1.2.3           /usr/lib/python3/dist-packages
+wheel                  0.37.1          /usr/lib/python3/dist-packages
+xdg                    5               /usr/lib/python3/dist-packages
+xkit                   0.0.0           /usr/lib/python3/dist-packages
+zipp                   1.0.0           /usr/lib/python3/dist-packages
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 list -v[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt install python3-pip[16Ppip3 list -v | grep -rl''/'h'o'm'e'/'a'l'u'm'n'o' '/home/alumno'
+[?2004l[35m[K.pki/nssdb/pkcs11.txt[m[K
+[35m[Ksnap/snap-store/638/.config/user-dirs.dirs[m[K
+[35m[Ksnap/snap-store/599/.config/user-dirs.dirs[m[K
+[35m[Ksnap/snapd-desktop-integration/49/.config/user-dirs.dirs[m[K
+[35m[Ksnap/snapd-desktop-integration/43/.config/user-dirs.dirs[m[K
+[35m[Ksnap/firefox/2186/.local/share/recently-used.xbel[m[K
+[35m[Ksnap/firefox/2186/.config/user-dirs.dirs[m[K
+[35m[Ksnap/firefox/2211/.local/share/recently-used.xbel[m[K
+[35m[Ksnap/firefox/2211/.config/user-dirs.dirs[m[K
+[35m[Ksnap/firefox/common/.cache/mozilla/firefox/dx215lj9.default/startupCache/urlCache.bin[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/permissions.sqlite[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/addonStartup.json.lz4[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/places.sqlite[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/sessionstore-backups/previous.jsonlz4[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/pkcs11.txt[m[K
+[35m[Ksnap/firefox/common/.mozilla/firefox/dx215lj9.default/extensions.json[m[K
+[35m[K.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal[m[K
+[35m[K.cache/tracker3/files/meta.db-wal[m[K
+[35m[K.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db[m[K
+[35m[K.cache/tracker3/files/meta.db[m[K
+[35m[K.cache/thumbnails/normal/56aaf25b9bfc4a4817df0a0930841280.png[m[K
+[35m[K.cache/thumbnails/large/8738e8af54c8dec27857ee44d2d1dac3.png[m[K
+[35m[K.cache/thumbnails/large/4dd96aeee1d10fe48c4ee5e731f393ac.png[m[K
+[35m[K.cache/thumbnails/large/711c573f9367107beef04ea6a7c8ca4d.png[m[K
+[35m[K.cache/thumbnails/large/56aaf25b9bfc4a4817df0a0930841280.png[m[K
+[35m[K.bash_history[m[K
+[35m[K.local/share/user-places.xbel.bak[m[K
+[35m[K.local/share/user-places.xbel[m[K
+[35m[K.local/share/recently-used.xbel[m[K
+[35m[KFC/fc-alumno/typescript_prac7_bol2[m[K
+[35m[KFC/fc-alumno/build/nano/config.status[m[K
+[35m[KFC/fc-alumno/build/nano/config.log[m[K
+[35m[KFC/fc-alumno/build/nano/src/Makefile[m[K
+[35m[KFC/fc-alumno/build/nano/Makefile[m[K
+^C
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 list -v | grep -rl '/home/alumno'[1P '/home/alumno'[1P '/home/alumno'[1P '/home/alumno'[1P'/home/alumno'
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 list -v | grep '/home/alumno'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'u's'r'
+[?2004lappdirs                1.4.4           [01;31m[K/usr[m[K/lib/python3/dist-packages
+apturl                 0.5.2           [01;31m[K/usr[m[K/lib/python3/dist-packages
+attrs                  21.2.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+beautifulsoup4         4.10.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+beniget                0.4.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+blinker                1.4             [01;31m[K/usr[m[K/lib/python3/dist-packages
+bottle                 0.12.19         [01;31m[K/usr[m[K/lib/python3/dist-packages
+Brlapi                 0.8.3           [01;31m[K/usr[m[K/lib/python3/dist-packages
+Brotli                 1.0.9           [01;31m[K/usr[m[K/lib/python3/dist-packages
+certifi                2020.6.20       [01;31m[K/usr[m[K/lib/python3/dist-packages
+chardet                4.0.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+click                  8.0.3           [01;31m[K/usr[m[K/lib/python3/dist-packages
+colorama               0.4.4           [01;31m[K/usr[m[K/lib/python3/dist-packages
+command-not-found      0.3             [01;31m[K/usr[m[K/lib/python3/dist-packages
+cryptography           3.4.8           [01;31m[K/usr[m[K/lib/python3/dist-packages
+cupshelpers            1.0             [01;31m[K/usr[m[K/lib/python3/dist-packages
+cycler                 0.11.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+dbus-python            1.2.18          [01;31m[K/usr[m[K/lib/python3/dist-packages
+decorator              4.4.2           [01;31m[K/usr[m[K/lib/python3/dist-packages
+defer                  1.0.6           [01;31m[K/usr[m[K/lib/python3/dist-packages
+defusedxml             0.7.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+distro                 1.7.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+distro-info            1.1build1       [01;31m[K/usr[m[K/lib/python3/dist-packages
+docker                 5.0.3           [01;31m[K/usr[m[K/lib/python3/dist-packages
+fonttools              4.29.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+fs                     2.4.12          [01;31m[K/usr[m[K/lib/python3/dist-packages
+future                 0.18.2          [01;31m[K/usr[m[K/lib/python3/dist-packages
+gast                   0.5.2           [01;31m[K/usr[m[K/lib/python3/dist-packages
+Glances                3.2.4.2         [01;31m[K/usr[m[K/lib/python3/dist-packages
+html5lib               1.1             [01;31m[K/usr[m[K/lib/python3/dist-packages
+httplib2               0.20.2          [01;31m[K/usr[m[K/lib/python3/dist-packages
+idna                   3.3             [01;31m[K/usr[m[K/lib/python3/dist-packages
+importlib-metadata     4.6.4           [01;31m[K/usr[m[K/lib/python3/dist-packages
+influxdb               5.3.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+jeepney                0.7.1           [01;31m[K/usr[m[K/lib/python3/dist-packages flit
+keyring                23.5.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+kiwisolver             1.3.2           [01;31m[K/usr[m[K/lib/python3/dist-packages
+language-selector      0.1             [01;31m[K/usr[m[K/lib/python3/dist-packages
+launchpadlib           1.10.16         [01;31m[K/usr[m[K/lib/python3/dist-packages
+lazr.restfulclient     0.14.4          [01;31m[K/usr[m[K/lib/python3/dist-packages
+lazr.uri               1.0.6           [01;31m[K/usr[m[K/lib/python3/dist-packages
+louis                  3.20.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+lxml                   4.8.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+lz4                    3.1.3+dfsg      [01;31m[K/usr[m[K/lib/python3/dist-packages
+macaroonbakery         1.3.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+matplotlib             3.5.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+meld                   3.20.4          [01;31m[K/usr[m[K/lib/python3/dist-packages
+more-itertools         8.10.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+mpmath                 0.0.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+msgpack                1.0.3           [01;31m[K/usr[m[K/lib/python3/dist-packages
+netifaces              0.11.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+numpy                  1.21.5          [01;31m[K/usr[m[K/lib/python3/dist-packages
+oauthlib               3.2.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+olefile                0.46            [01;31m[K/usr[m[K/lib/python3/dist-packages
+packaging              21.3            [01;31m[K/usr[m[K/lib/python3/dist-packages
+pexpect                4.8.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+Pillow                 9.0.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pip                    22.0.2          [01;31m[K/usr[m[K/lib/python3/dist-packages
+ply                    3.11            [01;31m[K/usr[m[K/lib/python3/dist-packages
+protobuf               3.12.4          [01;31m[K/usr[m[K/lib/python3/dist-packages
+psutil                 5.9.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+ptyprocess             0.7.0           [01;31m[K/usr[m[K/lib/python3/dist-packages flit
+pyasn1                 0.4.8           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pycairo                1.20.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+pycryptodomex          3.11.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+pycups                 2.0.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+PyGObject              3.42.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+PyJWT                  2.3.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pymacaroons            0.13.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+PyNaCl                 1.5.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pyparsing              2.4.7           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pyRFC3339              1.1             [01;31m[K/usr[m[K/lib/python3/dist-packages
+pysmi                  0.3.2           [01;31m[K/usr[m[K/lib/python3/dist-packages
+pysnmp                 4.4.12          [01;31m[K/usr[m[K/lib/python3/dist-packages
+pystache               0.6.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+python-apt             2.3.0+ubuntu2.1 [01;31m[K/usr[m[K/lib/python3/dist-packages
+python-dateutil        2.8.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+python-debian          0.1.43ubuntu1   [01;31m[K/usr[m[K/lib/python3/dist-packages
+pythran                0.10.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+pytz                   2022.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+pyxdg                  0.27            [01;31m[K/usr[m[K/lib/python3/dist-packages
+PyYAML                 5.4.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+reportlab              3.6.8           [01;31m[K/usr[m[K/lib/python3/dist-packages
+requests               2.25.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+scipy                  1.8.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+SecretStorage          3.3.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+setuptools             59.6.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+six                    1.16.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+soupsieve              2.3.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+sympy                  1.9             [01;31m[K/usr[m[K/lib/python3/dist-packages
+systemd-python         234             [01;31m[K/usr[m[K/lib/python3/dist-packages
+ubuntu-advantage-tools 27.10           [01;31m[K/usr[m[K/lib/python3/dist-packages
+ubuntu-drivers-common  0.0.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+ufoLib2                0.13.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+ufw                    0.36.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+unattended-upgrades    0.1             [01;31m[K/usr[m[K/lib/python3/dist-packages
+unicodedata2           14.0.0          [01;31m[K/usr[m[K/lib/python3/dist-packages
+urllib3                1.26.5          [01;31m[K/usr[m[K/lib/python3/dist-packages
+wadllib                1.3.6           [01;31m[K/usr[m[K/lib/python3/dist-packages
+webencodings           0.5.1           [01;31m[K/usr[m[K/lib/python3/dist-packages
+websocket-client       1.2.3           [01;31m[K/usr[m[K/lib/python3/dist-packages
+wheel                  0.37.1          [01;31m[K/usr[m[K/lib/python3/dist-packages
+xdg                    5               [01;31m[K/usr[m[K/lib/python3/dist-packages
+xkit                   0.0.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+zipp                   1.0.0           [01;31m[K/usr[m[K/lib/python3/dist-packages
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show | grep request[K[K[K[K[K[K[K""[C[K[K[K[K[K[K[K[K[K[K request
+[?2004l[33mWARNING: Package(s) not found: request[0m[33m
+[0m[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show requests
+[?2004lName: requests
+Version: 2.25.1
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /usr/lib/python3/dist-packages
+Requires: 
+Required-by: 
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show pandas
+[?2004l[33mWARNING: Package(s) not found: pandas[0m[33m
+[0m[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 install pandas
+[?2004lDefaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Downloading pandas-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/12.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/12.1 MB[0m [31m3.4 MB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/12.1 MB[0m [31m8.3 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/12.1 MB[0m [31m10.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/12.1 MB[0m [31m9.2 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/12.1 MB[0m [31m10.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.4/12.1 MB[0m [31m10.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/12.1 MB[0m [31m9.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.2/12.1 MB[0m [31m8.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/12.1 MB[0m [31m9.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.4/12.1 MB[0m [31m9.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m5.9/12.1 MB[0m [31m9.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/12.1 MB[0m [31m9.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m6.3/12.1 MB[0m [31m8.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m6.7/12.1 MB[0m [31m8.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━[0m [32m7.3/12.1 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m7.7/12.1 MB[0m [31m8.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━[0m [32m8.1/12.1 MB[0m [31m8.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━[0m [32m9.1/12.1 MB[0m [31m8.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━[0m [32m10.6/12.1 MB[0m [31m10.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m12.1/12.1 MB[0m [31m10.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m12.1/12.1 MB[0m [31m10.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m12.1/12.1 MB[0m [31m10.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.1/12.1 MB[0m [31m9.3 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: numpy>=1.21.0 in /usr/lib/python3/dist-packages (from pandas) (1.21.5)
+Requirement already satisfied: python-dateutil>=2.8.1 in /usr/lib/python3/dist-packages (from pandas) (2.8.1)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas) (2022.1)
+Installing collected packages: pandas
+Successfully installed pandas-1.5.2
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mpip3 show -f pandas | grep 'Requires'[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3 show -f pandas | grep 'Requires'
+[A
+[?2004l[01;31m[KRequires[m[K: numpy, python-dateutil, pytz
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show -f pandas | grep 'Requires'[18Pinstall pandas[3Pshow[C[C[C[C[C[C[Crequests[Klist -v | grep '/usr'[1P'[1P'[1P'[1P'p'a'n'd'a's'
+[?2004l[01;31m[Kpandas[m[K                 1.5.2           /home/alumno/.local/lib/python3.10/site-packages pip
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 list -v | grep 'pandas'show -f pandas | grep 'Requires'
+[?2004l[01;31m[KRequires[m[K: numpy, python-dateutil, pytz
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mpip3 show -f pandas | grep 'Requires' | cut -d ':' -f 2 | tr -d ' '[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3 show -f pandas | grep 'Requires' | cut -d ':' -f 2 | tr -d ' '
+[A
+[?2004lnumpy,python-dateutil,pytz
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show -f pandas | grep 'Requires' | cut -d ':' -f 2 | tr -d ' ', '
+[?2004lnumpypython-dateutilpytz
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mpip3 show $(pip3 show --requires pandas | grep -Eo '\b[a-zA-Z0-9._-]+\b')[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3 show $(pip3 show --requires pandas | grep -Eo '\b[a-zA-Z0-9._-]+\b')
+[A
+[?2004l
+Usage:   
+  pip3 show [options] <package> ...
+
+no such option: --requires
+[33mWARNING: ERROR: Please provide a package name or names.[0m[33m
+[0m[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show $(pip3 show --requires pandas | grep -Eo '\b[a-zA-Z0-9._-]+\b')[C[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)q)u)i)r)e)s) )p)a)n)d)a)s) )|) )g)e)[1P)r)e)p) )-)E)o) )')\)b) )[1P)[)a)-)z)A)-)z)[1P)Z)0)-)9).)_)-)])+)\)b)')[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[C[Kpip [K3 show[K[K[K[K[K[K[K[K[K[7mSabiendo que pip3 show admite como parámetro uno o más nombres de paquetes, utiliza la salida[27m
+[7mdel comando anterior (colocándolo dentro de un subshell, consulta la práctica 5 para más detalles) para[27m
+[7mescribir un comando que muestre la información sobre todos los paquetes de los que depende el paquete[27m
+[7mpandas. Comprueba que efectivamente dichos paquetes son requeridos por pandas.[27m[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CSabiendo que pip3 show admite como parámetro uno o más nombres de paquetes, utiliza la salida
+del comando anterior (colocándolo dentro de un subshell, consulta la práctica 5 para más detalles) para
+escribir un comando que muestre la información sobre todos los paquetes de los que depende el paquete
+[1Ppandas. Comprueba que efectivamente dichos paquetes son requeridos por pandas[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpip show pandas $[7mpip3 show -f pandas | grep 'Requires' | cut -d ':' -f 2 | tr -d ' '[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3 show -f pandas | grep 'Requires' | cut -d ':' -f 2 | tr -d ' '[1@([C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+[?2004l[33mWARNING: Package(s) not found: numpy,python-dateutil,pytz[0m[33m
+[0mName: pandas
+Version: 1.5.2
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Author: The Pandas Development Team
+Author-email: pandas-dev@python.org
+License: BSD-3-Clause
+Location: /home/alumno/.local/lib/python3.10/site-packages
+Requires: numpy, python-dateutil, pytz
+Required-by: 
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mapt list --installed | grep python3-tk[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capt list --installed | grep python3-tk
+[A
+[?2004l
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+[01;31m[Kpython3-tk[m[K/jammy,now 3.10.4-0ubuntu1 amd64 [instalado, actualizable a: 3.10.6-1~22.04]
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7msudo apt install python3-tk[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install python3-tk
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[sudo] contraseña para alumno: 
+Leyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  libpython3-dev libpython3-stdlib python3 python3-dev python3-distutils python3-lib2to3 python3-minimal
+Paquetes sugeridos:
+  python3-doc python3-venv tix python3-tk-dbg
+Se actualizarán los siguientes paquetes:
+  libpython3-dev libpython3-stdlib python3 python3-dev python3-distutils python3-lib2to3 python3-minimal python3-tk
+8 actualizados, 0 nuevos se instalarán, 0 para eliminar y 150 no actualizados.
+Se necesita descargar 413 kB de archivos.
+Se utilizarán 404 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+[33m0% [Trabajando][0m               Des:1 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04 [7.166 B]
+[33m0% [1 libpython3-dev 0 B/7.166 B 0%][0m[33m                                    4% [Trabajando][0m               Des:2 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04 [26,0 kB]
+[33m4% [2 python3-dev 0 B/26,0 kB 0%][0m[33m                                 11% [Trabajando][0m                Des:3 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24,3 kB]
+[33m11% [3 python3-minimal 0 B/24,3 kB 0%][0m[33m                                      19% [Trabajando][0m                Des:4 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04 [22,8 kB]
+[33m19% [4 python3 0 B/22,8 kB 0%][0m[33m                              26% [Trabajando][0m                Des:5 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distutils all 3.10.6-1~22.04 [139 kB]
+[33m26% [5 python3-distutils 0 B/139 kB 0%][0m[33m                                       55% [Trabajando][0m                Des:6 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-lib2to3 all 3.10.6-1~22.04 [77,6 kB]
+[33m55% [6 python3-lib2to3 0 B/77,6 kB 0%][0m[33m                                      72% [Trabajando][0m                Des:7 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6.910 B]
+[33m72% [7 libpython3-stdlib 0 B/6.910 B 0%][0m[33m                                        76% [Trabajando][0m                Des:8 http://es.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-tk amd64 3.10.6-1~22.04 [110 kB]
+[33m76% [8 python3-tk 0 B/110 kB 0%][0m[33m                                100% [Trabajando][0m                 Descargados 413 kB en 0s (1.018 kB/s)
+
+7[0;40r8[1A(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 251966 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../libpython3-dev_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [  0%][49m[39m [................................................................................................................................] 87[41;0f[42m[30mProgreso: [  3%][49m[39m [###.............................................................................................................................] 8Desempaquetando libpython3-dev:amd64 (3.10.6-1~22.04) sobre (3.10.4-0ubuntu2) ...
+7[41;0f[42m[30mProgreso: [  6%][49m[39m [#######.........................................................................................................................] 8Preparando para desempaquetar .../python3-dev_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [  9%][49m[39m [###########.....................................................................................................................] 8Desempaquetando python3-dev (3.10.6-1~22.04) sobre (3.10.4-0ubuntu2) ...
+7[41;0f[42m[30mProgreso: [ 12%][49m[39m [###############.................................................................................................................] 8Preparando para desempaquetar .../python3-minimal_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 15%][49m[39m [###################.............................................................................................................] 8Desempaquetando python3-minimal (3.10.6-1~22.04) sobre (3.10.4-0ubuntu2) ...
+7[41;0f[42m[30mProgreso: [ 18%][49m[39m [#######################.........................................................................................................] 8Configurando python3-minimal (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 21%][49m[39m [###########################.....................................................................................................] 87[41;0f[42m[30mProgreso: [ 24%][49m[39m [###############################.................................................................................................] 8(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 251966 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../python3_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 27%][49m[39m [##################################..............................................................................................] 8running python pre-rtupdate hooks for python3.10...
+Desempaquetando python3 (3.10.6-1~22.04) sobre (3.10.4-0ubuntu2) ...
+7[41;0f[42m[30mProgreso: [ 30%][49m[39m [######################################..........................................................................................] 8Preparando para desempaquetar .../python3-distutils_3.10.6-1~22.04_all.deb ...
+7[41;0f[42m[30mProgreso: [ 33%][49m[39m [##########################################......................................................................................] 8Desempaquetando python3-distutils (3.10.6-1~22.04) sobre (3.10.4-0ubuntu1) ...
+7[41;0f[42m[30mProgreso: [ 36%][49m[39m [##############################################..................................................................................] 8Preparando para desempaquetar .../python3-lib2to3_3.10.6-1~22.04_all.deb ...
+7[41;0f[42m[30mProgreso: [ 39%][49m[39m [##################################################..............................................................................] 8Desempaquetando python3-lib2to3 (3.10.6-1~22.04) sobre (3.10.4-0ubuntu1) ...
+7[41;0f[42m[30mProgreso: [ 42%][49m[39m [######################################################..........................................................................] 8Preparando para desempaquetar .../libpython3-stdlib_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 45%][49m[39m [##########################################################......................................................................] 8Desempaquetando libpython3-stdlib:amd64 (3.10.6-1~22.04) sobre (3.10.4-0ubuntu2) ...
+7[41;0f[42m[30mProgreso: [ 48%][49m[39m [##############################################################..................................................................] 8Preparando para desempaquetar .../python3-tk_3.10.6-1~22.04_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 52%][49m[39m [#################################################################...............................................................] 8Desempaquetando python3-tk:amd64 (3.10.6-1~22.04) sobre (3.10.4-0ubuntu1) ...
+7[41;0f[42m[30mProgreso: [ 55%][49m[39m [#####################################################################...........................................................] 8Configurando libpython3-dev:amd64 (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 58%][49m[39m [#########################################################################.......................................................] 87[41;0f[42m[30mProgreso: [ 61%][49m[39m [#############################################################################...................................................] 8Configurando libpython3-stdlib:amd64 (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 64%][49m[39m [#################################################################################...............................................] 87[41;0f[42m[30mProgreso: [ 67%][49m[39m [#####################################################################################...........................................] 8Configurando python3 (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 70%][49m[39m [#########################################################################################.......................................] 8running python rtupdate hooks for python3.10...
+running python post-rtupdate hooks for python3.10...
+7[41;0f[42m[30mProgreso: [ 73%][49m[39m [#############################################################################################...................................] 8Configurando python3-lib2to3 (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 76%][49m[39m [################################################################################################................................] 87[41;0f[42m[30mProgreso: [ 79%][49m[39m [####################################################################################################............................] 8Configurando python3-distutils (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 82%][49m[39m [########################################################################################################........................] 87[41;0f[42m[30mProgreso: [ 85%][49m[39m [############################################################################################################....................] 8Configurando python3-tk:amd64 (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 88%][49m[39m [################################################################################################################................] 87[41;0f[42m[30mProgreso: [ 91%][49m[39m [####################################################################################################################............] 8Configurando python3-dev (3.10.6-1~22.04) ...
+7[41;0f[42m[30mProgreso: [ 94%][49m[39m [########################################################################################################################........] 87[41;0f[42m[30mProgreso: [ 97%][49m[39m [############################################################################################################################....] 8Procesando disparadores para man-db (2.10.2-1) ...
+
+7[0;41r8[1A[J[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt install python3-tk[11@apt list --installed | grep[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+[01;31m[Kpython3-tk[m[K/jammy-updates,now 3.10.6-1~22.04 amd64 [instalado]
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 sample_plot.py.zip
+[?2004l/usr/bin/python3: can't find '__main__' module in '/home/alumno/sample_plot.py.zip'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 sample_plot.py.zip[K[K[K[K
+[?2004lTraceback (most recent call last):
+  File "/home/alumno/sample_plot.py", line 1, in <module>
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ## me falta el módulo seaborn
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ import seaborn[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpo[Kip3 install seaborn
+[?2004lDefaulting to user installation because normal site-packages is not writeable
+Collecting seaborn
+  Downloading seaborn-0.12.1-py3-none-any.whl (288 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/288.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m81.9/288.2 KB[0m [31m2.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m288.2/288.2 KB[0m [31m3.1 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: numpy>=1.17 in /usr/lib/python3/dist-packages (from seaborn) (1.21.5)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.1 in /usr/lib/python3/dist-packages (from seaborn) (3.5.1)
+RequiremeScript started on 2022-12-20 22:43:56+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno[00m$ pip[K[K[Kpython3 -m venvmy[K[K myvirtenv
+[?2004lThe virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.10-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/alumno/FC/fc-alumno/myvirtenv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno[00m$ cd
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cdpython3 -m venv myvirtenv
+[?2004lThe virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.10-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/alumno/myvirtenv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 install [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpip install pyh[Kthon3-ve[Kenv
+[?2004lDefaulting to user installation because normal site-packages is not writeable
+[31mERROR: Could not find a version that satisfies the requirement python3-venv (from versions: none)[0m[31m
+[0m[31mERROR: No matching distribution found for python3-venv[0m[31m
+[0m[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [K]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ source myvirtenv /bin/activate
+[?2004lbash: source: myvirtenv: es un directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ source myvirtenv /bin/activate[1P/bin/activate
+[?2004lbash: myvirtenv/bin/activate: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt  install[K[K[K[K[K[K[K[K[K[K[Kpt install python3
+[?2004l[sudo] contraseña para alumno: 
+Leyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+python3 ya está en su versión más reciente (3.10.6-1~22.04).
+fijado python3 como instalado manualmente.
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 150 no actualizados.
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt install python3ource myvirtenv/bin/activate /bin/activate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Ppip install python3-venvython3 -m venv myvirtenv
+[?2004lThe virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.10-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/alumno/myvirtenv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 -m venv myvirtenv[1Psudo apt install python3.10-venv
+[?2004lLeyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  libpython3.10 libpython3.10-dev libpython3.10-minimal libpython3.10-stdlib python3-pip-whl python3-setuptools-whl python3.10 python3.10-dev
+  python3.10-minimal
+Paquetes sugeridos:
+  python3.10-doc binfmt-support
+Se instalarán los siguientes paquetes NUEVOS:
+  python3-pip-whl python3-setuptools-whl python3.10-venv
+Se actualizarán los siguientes paquetes:
+  libpython3.10 libpython3.10-dev libpython3.10-minimal libpython3.10-stdlib python3.10 python3.10-dev python3.10-minimal
+7 actualizados, 3 nuevos se instalarán, 0 para eliminar y 143 no actualizados.
+Se necesita descargar 2.473 kB/15,1 MB de archivos.
+Se utilizarán 2.889 kB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+[33m81% [Trabajando][0m                Des:1 http://es.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pip-whl all 22.0.2+dfsg-1 [1.679 kB]
+[33m81% [1 python3-pip-whl 0 B/1.679 kB 0%][0m[33m82% [1 python3-pip-whl 252 kB/1.679 kB 15%][0m[33m89% [1 python3-pip-whl 1.475 kB/1.679 kB 88%][0m[33m                                             92% [Trabajando][0m                Des:2 http://es.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-setuptools-whl all 59.6.0-1.2 [788 kB]
+[33m92% [2 python3-setuptools-whl 0 B/788 kB 0%][0m[33m93% [2 python3-setuptools-whl 181 kB/788 kB 23%][0m[33m93% [2 python3-setuptools-whl 188 kB/788 kB 24%][0m[33m93% [2 python3-setuptools-whl 268 kB/788 kB 34%][0m[33m96% [2 python3-setuptools-whl 725 kB/788 kB 92%][0m[33m96% [2 python3-setuptools-whl 725 kB/788 kB 92%][0m[33m96% [2 python3-setuptools-whl 744 kB/788 kB 94%][0m[33m                                                98% [Trabajando][0m                Des:3 http://es.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3.10-venv amd64 3.10.6-1~22.04.2 [5.722 B]
+[33m98% [3 python3.10-venv 0 B/5.722 B 0%][0m[33m                                      100% [Trabajando][0m                 Descargados 2.473 kB en 5s (514 kB/s)
+
+7[0;40r8[1A(Leyendo la base de datos ... (Leyendo la base de datos ... 5%(Leyendo la base de datos ... 10%(Leyendo la base de datos ... 15%(Leyendo la base de datos ... 20%(Leyendo la base de datos ... 25%(Leyendo la base de datos ... 30%(Leyendo la base de datos ... 35%(Leyendo la base de datos ... 40%(Leyendo la base de datos ... 45%(Leyendo la base de datos ... 50%(Leyendo la base de datos ... 55%(Leyendo la base de datos ... 60%(Leyendo la base de datos ... 65%(Leyendo la base de datos ... 70%(Leyendo la base de datos ... 75%(Leyendo la base de datos ... 80%(Leyendo la base de datos ... 85%(Leyendo la base de datos ... 90%(Leyendo la base de datos ... 95%(Leyendo la base de datos ... 100%(Leyendo la base de datos ... 252113 ficheros o directorios instalados actualmente.)
+Preparando para desempaquetar .../0-python3.10-dev_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [  0%][49m[39m [................................................................................................................................] 87[41;0f[42m[30mProgreso: [  2%][49m[39m [###.............................................................................................................................] 8Desempaquetando python3.10-dev (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [  5%][49m[39m [######..........................................................................................................................] 8Preparando para desempaquetar .../1-libpython3.10-dev_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [  7%][49m[39m [#########.......................................................................................................................] 8Desempaquetando libpython3.10-dev:amd64 (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 10%][49m[39m [############....................................................................................................................] 8Preparando para desempaquetar .../2-libpython3.10_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 12%][49m[39m [###############.................................................................................................................] 8Desempaquetando libpython3.10:amd64 (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 15%][49m[39m [##################..............................................................................................................] 8Preparando para desempaquetar .../3-python3.10_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 17%][49m[39m [#####################...........................................................................................................] 8Desempaquetando python3.10 (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 20%][49m[39m [########################........................................................................................................] 8Preparando para desempaquetar .../4-libpython3.10-stdlib_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 22%][49m[39m [############################....................................................................................................] 8Desempaquetando libpython3.10-stdlib:amd64 (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 24%][49m[39m [###############################.................................................................................................] 8Preparando para desempaquetar .../5-python3.10-minimal_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 27%][49m[39m [##################################..............................................................................................] 8Desempaquetando python3.10-minimal (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 29%][49m[39m [#####################################...........................................................................................] 8Preparando para desempaquetar .../6-libpython3.10-minimal_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 32%][49m[39m [########################################........................................................................................] 8Desempaquetando libpython3.10-minimal:amd64 (3.10.6-1~22.04.2) sobre (3.10.6-1~22.04.1) ...
+7[41;0f[42m[30mProgreso: [ 34%][49m[39m [###########################################.....................................................................................] 8Seleccionando el paquete python3-pip-whl previamente no seleccionado.
+Preparando para desempaquetar .../7-python3-pip-whl_22.0.2+dfsg-1_all.deb ...
+7[41;0f[42m[30mProgreso: [ 37%][49m[39m [##############################################..................................................................................] 8Desempaquetando python3-pip-whl (22.0.2+dfsg-1) ...
+7[41;0f[42m[30mProgreso: [ 39%][49m[39m [#################################################...............................................................................] 8Seleccionando el paquete python3-setuptools-whl previamente no seleccionado.
+Preparando para desempaquetar .../8-python3-setuptools-whl_59.6.0-1.2_all.deb ...
+7[41;0f[42m[30mProgreso: [ 41%][49m[39m [#####################################################...........................................................................] 8Desempaquetando python3-setuptools-whl (59.6.0-1.2) ...
+7[41;0f[42m[30mProgreso: [ 44%][49m[39m [########################################################........................................................................] 8Seleccionando el paquete python3.10-venv previamente no seleccionado.
+Preparando para desempaquetar .../9-python3.10-venv_3.10.6-1~22.04.2_amd64.deb ...
+7[41;0f[42m[30mProgreso: [ 46%][49m[39m [###########################################################.....................................................................] 8Desempaquetando python3.10-venv (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 49%][49m[39m [##############################################################..................................................................] 8Configurando python3-setuptools-whl (59.6.0-1.2) ...
+7[41;0f[42m[30mProgreso: [ 51%][49m[39m [#################################################################...............................................................] 87[41;0f[42m[30mProgreso: [ 54%][49m[39m [####################################################################............................................................] 8Configurando python3-pip-whl (22.0.2+dfsg-1) ...
+7[41;0f[42m[30mProgreso: [ 56%][49m[39m [#######################################################################.........................................................] 87[41;0f[42m[30mProgreso: [ 59%][49m[39m [##########################################################################......................................................] 8Configurando libpython3.10-minimal:amd64 (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 61%][49m[39m [##############################################################################..................................................] 87[41;0f[42m[30mProgreso: [ 63%][49m[39m [#################################################################################...............................................] 8Configurando python3.10-minimal (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 66%][49m[39m [####################################################################################............................................] 87[41;0f[42m[30mProgreso: [ 68%][49m[39m [#######################################################################################.........................................] 8Configurando libpython3.10-stdlib:amd64 (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 71%][49m[39m [##########################################################################################......................................] 87[41;0f[42m[30mProgreso: [ 73%][49m[39m [#############################################################################################...................................] 8Configurando libpython3.10:amd64 (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 76%][49m[39m [################################################################################################................................] 87[41;0f[42m[30mProgreso: [ 78%][49m[39m [###################################################################################################.............................] 8Configurando python3.10 (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 80%][49m[39m [#######################################################################################################.........................] 87[41;0f[42m[30mProgreso: [ 83%][49m[39m [##########################################################################################################......................] 8Configurando libpython3.10-dev:amd64 (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 85%][49m[39m [#############################################################################################################...................] 87[41;0f[42m[30mProgreso: [ 88%][49m[39m [################################################################################################################................] 8Configurando python3.10-dev (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 90%][49m[39m [###################################################################################################################.............] 87[41;0f[42m[30mProgreso: [ 93%][49m[39m [######################################################################################################################..........] 8Configurando python3.10-venv (3.10.6-1~22.04.2) ...
+7[41;0f[42m[30mProgreso: [ 95%][49m[39m [#########################################################################################################################.......] 87[41;0f[42m[30mProgreso: [ 98%][49m[39m [############################################################################################################################....] 8Procesando disparadores para libc-bin (2.35-0ubuntu3.1) ...
+Procesando disparadores para man-db (2.10.2-1) ...
+Procesando disparadores para mailcap (3.70+nmu1ubuntu1) ...
+Procesando disparadores para desktop-file-utils (0.26-1ubuntu3) ...
+Procesando disparadores para gnome-menus (3.36.0-1ubuntu3) ...
+
+7[0;41r8[1A[J[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ sudo apt install python3.10-venv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Ppython3 -m venv myvirtenv
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 -m venv myvirtenvsudo apt install python3.10-venv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Ppython3 -m venv myvirtenv[1Psudo apt install python3ource myvirtenv/bin/activate /bin/activate[1P/bin/activate
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3
+[?2004lPython 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import seaborn
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'seaborn'
+>>> 
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ## no me deja pq[Korque no he instalado python en e [Kl aula virtual
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 insatll[K[K[K[Ktall seaborn
+[?2004lCollecting seaborn
+  Using cached seaborn-0.12.1-py3-none-any.whl (288 kB)
+Collecting pandas>=0.25
+  Using cached pandas-1.5.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+Collecting numpy>=1.17
+  Downloading numpy-1.24.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/17.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/17.3 MB[0m [31m1.5 MB/s[0m eta [36m0:00:12[0m[2K     [38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/17.3 MB[0m [31m4.4 MB/s[0m eta [36m0:00:04[0m[2K     [38;2;249;38;114m━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.9/17.3 MB[0m [31m7.2 MB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/17.3 MB[0m [31m9.0 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/17.3 MB[0m [31m9.5 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.1/17.3 MB[0m [31m11.2 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.3/17.3 MB[0m [31m10.5 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/17.3 MB[0m [31m10.4 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.2/17.3 MB[0m [31m9.6 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.4/17.3 MB[0m [31m9.2 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.9/17.3 MB[0m [31m9.3 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.7/17.3 MB[0m [31m10.0 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6.6/17.3 MB[0m [31m10.5 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.7/17.3 MB[0m [31m11.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m8.1/17.3 MB[0m [31m11.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m8.6/17.3 MB[0m [31m10.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m9.0/17.3 MB[0m [31m10.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m9.3/17.3 MB[0m [31m10.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m9.8/17.3 MB[0m [31m10.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━[0m [32m10.1/17.3 MB[0m [31m10.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━[0m [32m10.7/17.3 MB[0m [31m10.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━[0m [32m11.3/17.3 MB[0m [31m11.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━[0m [32m11.8/17.3 MB[0m [31m10.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━[0m [32m12.0/17.3 MB[0m [31m10.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━[0m [32m12.3/17.3 MB[0m [31m10.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━[0m [32m12.9/17.3 MB[0m [31m10.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━[0m [32m13.9/17.3 MB[0m [31m10.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m14.6/17.3 MB[0m [31m10.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━[0m [32m16.0/17.3 MB[0m [31m12.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m17.3/17.3 MB[0m [31m12.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m17.3/17.3 MB[0m [31m8.9 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting matplotlib!=3.6.1,>=3.1
+  Downloading matplotlib-3.6.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.8 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/11.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.1/11.8 MB[0m [31m2.4 MB/s[0m eta [36m0:00:05[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/11.8 MB[0m [31m4.6 MB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/11.8 MB[0m [31m4.3 MB/s[0m eta [36m0:00:03[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/11.8 MB[0m [31m5.8 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/11.8 MB[0m [31m6.6 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.5/11.8 MB[0m [31m8.8 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/11.8 MB[0m [31m8.7 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m [31m9.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.5/11.8 MB[0m [31m10.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.1/11.8 MB[0m [31m10.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m [31m11.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m [31m11.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m [31m11.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━[0m [32m8.0/11.8 MB[0m [31m11.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━[0m [32m8.9/11.8 MB[0m [31m12.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━[0m [32m10.1/11.8 MB[0m [31m13.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m11.8/11.8 MB[0m [31m17.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m11.8/11.8 MB[0m [31m17.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m11.8/11.8 MB[0m [31m17.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m [31m13.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/965.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m512.0/965.4 KB[0m [31m14.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m965.4/965.4 KB[0m [31m14.0 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.6 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/1.6 MB[0m [31m8.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m1.6/1.6 MB[0m [31m16.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/1.6 MB[0m [31m12.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting contourpy>=1.0.1
+  Downloading contourpy-1.0.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (296 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/296.1 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m296.1/296.1 KB[0m [31m13.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting packaging>=20.0
+  Downloading packaging-22.0-py3-none-any.whl (42 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/42.6 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42.6/42.6 KB[0m [31m2.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting python-dateutil>=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/247.7 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m247.7/247.7 KB[0m [31m10.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pillow>=6.2.0
+  Downloading Pillow-9.3.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.3 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.3 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/3.3 MB[0m [31m5.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.5/3.3 MB[0m [31m4.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/3.3 MB[0m [31m5.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m1.8/3.3 MB[0m [31m9.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m3.3/3.3 MB[0m [31m14.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.3/3.3 MB[0m [31m12.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pyparsing>=2.2.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/98.3 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m98.3/98.3 KB[0m [31m8.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pytz>=2020.1
+  Downloading pytz-2022.7-py2.py3-none-any.whl (499 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/499.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m491.5/499.4 KB[0m [31m13.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m499.4/499.4 KB[0m [31m9.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, python-dateutil, contourpy, pandas, matplotlib, seaborn
+Successfully installed contourpy-1.0.6 cycler-0.11.0 fonttools-4.38.0 kiwisolver-1.4.4 matplotlib-3.6.2 numpy-1.24.0 packaging-22.0 pandas-1.5.2 pillow-9.3.0 pyparsing-3.0.9 python-dateutil-2.8.2 pytz-2022.7 seaborn-0.12.1 six-1.16.0
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 install seaborn## no me deja porque no he instalado python en el aula virtual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3[Ksource myvirtenv/bin/activatepython3[K
+[?2004lPython 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import seaborn[C[C[C[C[Kimport seaborn
+>>> 
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ python3 [7msample_plot.py[27msample_plot.py
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 insat[K[Ktall glances
+[?2004lCollecting glances
+  Downloading Glances-3.3.0.4-py3-none-any.whl (707 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/707.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m30.7/707.4 KB[0m [31m876.3 kB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m235.5/707.4 KB[0m [31m3.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m707.4/707.4 KB[0m [31m6.0 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: packaging in ./myvirtenv/lib/python3.10/site-packages (from glances) (22.0)
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting psutil>=5.3.0
+  Downloading psutil-5.9.4-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (280 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/280.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m276.5/280.2 KB[0m [31m24.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m280.2/280.2 KB[0m [31m4.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting future
+  Downloading future-0.18.2.tar.gz (829 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/829.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m819.2/829.2 KB[0m [31m23.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m829.2/829.2 KB[0m [31m14.8 MB/s[0m eta [36m0:00:00[0m
+[?25h  Preparing metadata (setup.py) ... [?25l- done
+[?25hUsing legacy 'setup.py install' for future, since package 'wheel' is not installed.
+Installing collected packages: psutil, future, defusedxml, glances
+  Running setup.py install for future ... [?25l- \ | / - \ | done
+[?25hSuccessfully installed defusedxml-0.7.1 future-0.18.2 glances-3.3.0.4 psutil-5.9.4
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ [7mpip3 show glances | grep "Location" | cut -d ":" -f2[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip3 show glances | grep "Location" | cut -d ":" -f2
+[A
+[?2004l /home/alumno/myvirtenv/lib/python3.10/site-packages
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 show glances | grep "Location" | cut -d ":" -f2[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[01;31m[KLocation[m[K: /home/alumno/myvirtenv/lib/python3.10/site-packages
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ glances --version
+[?2004lGlances v3.3.0.4 with PsUtil v5.9.4
+Log file: /home/alumno/.local/share/glances/glances.log
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ dea[K[Kactivate
+[?2004ldactivate: orden no encontrada
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ deactivad[K[K[K[K[K[K[K[K[Kdeactivate
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ glances --version
+[?2004lGlances v3.2.4.2 with PsUtil v5.9.0
+Log file: /home/alumno/.local/share/glances/glances.log
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip [K3 show glances --version[C[K[K[K[K[K[K[K[K[K[K
+[?2004lName: Glances
+Version: 3.2.4.2
+Summary: A cross-platform curses-based monitoring tool
+Home-page: https://github.com/nicolargo/glances
+Author: Nicolas Hennion
+Author-email: nicolas@nicolargo.com
+License: LGPLv3
+Location: /usr/lib/python3/dist-packages
+Requires: 
+Required-by: 
+[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ###[K ejercicio 3
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ ## ejercicio 3pip3 show glancesglances --version[7Pdeactivate[1Pactivateglances --versionpip3 show glances | grep "Location" | cut -d ":" -f2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinstall glances[Kython3 sample_plot.py[Kip3 install seaborn## no me deja porque no he instalado python en el aula virtual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython3[Ksource myvirtenv/bin/activate[4Ppython3 -m venv myvirtenvsource myvirtenv/bin/activate
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ pip3 install Jupyter
+[?2004lCollecting Jupyter
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting notebook
+  Downloading notebook-6.5.2-py3-none-any.whl (439 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/439.1 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m61.4/439.1 KB[0m [31m2.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m430.1/439.1 KB[0m [31m6.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m439.1/439.1 KB[0m [31m4.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting qtconsole
+  Downloading qtconsole-5.4.0-py3-none-any.whl (121 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/121.0 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m121.0/121.0 KB[0m [31m7.9 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting ipykernel
+  Downloading ipykernel-6.19.4-py3-none-any.whl (145 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/145.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m145.2/145.2 KB[0m [31m10.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting nbconvert
+  Downloading nbconvert-7.2.7-py3-none-any.whl (273 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/273.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m273.2/273.2 KB[0m [31m21.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyter-console
+  Downloading jupyter_console-6.4.4-py3-none-any.whl (22 kB)
+Collecting ipywidgets
+  Downloading ipywidgets-8.0.3-py3-none-any.whl (137 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/137.9 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m137.9/137.9 KB[0m [31m7.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyter-client>=6.1.12
+  Downloading jupyter_client-7.4.8-py3-none-any.whl (133 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/133.5 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m133.5/133.5 KB[0m [31m9.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting tornado>=6.1
+  Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/424.0 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m424.0/424.0 KB[0m [31m13.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting debugpy>=1.0
+  Downloading debugpy-1.6.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/3.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/3.0 MB[0m [31m4.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.5/3.0 MB[0m [31m4.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.8/3.0 MB[0m [31m5.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m1.5/3.0 MB[0m [31m7.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m3.0/3.0 MB[0m [31m12.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/3.0 MB[0m [31m11.0 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting comm>=0.1.1
+  Downloading comm-0.1.2-py3-none-any.whl (6.5 kB)
+Collecting traitlets>=5.4.0
+  Downloading traitlets-5.8.0-py3-none-any.whl (116 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/116.8 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m116.8/116.8 KB[0m [31m6.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting matplotlib-inline>=0.1
+  Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+Requirement already satisfied: packaging in ./myvirtenv/lib/python3.10/site-packages (from ipykernel->Jupyter) (22.0)
+Requirement already satisfied: psutil in ./myvirtenv/lib/python3.10/site-packages (from ipykernel->Jupyter) (5.9.4)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+Collecting ipython>=7.23.1
+  Downloading ipython-8.7.0-py3-none-any.whl (761 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/761.7 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━[0m [32m655.4/761.7 KB[0m [31m21.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m761.7/761.7 KB[0m [31m11.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pyzmq>=17
+  Downloading pyzmq-24.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m1.1/1.1 MB[0m [31m29.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m14.9 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting widgetsnbextension~=4.0
+  Downloading widgetsnbextension-4.0.4-py3-none-any.whl (2.0 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/2.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.5/2.0 MB[0m [31m13.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/2.0 MB[0m [31m5.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/2.0 MB[0m [31m4.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━[0m [32m1.1/2.0 MB[0m [31m4.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m2.0/2.0 MB[0m [31m6.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.0/2.0 MB[0m [31m5.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyterlab-widgets~=3.0
+  Downloading jupyterlab_widgets-3.0.4-py3-none-any.whl (384 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/384.3 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m378.9/384.3 KB[0m [31m32.7 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m384.3/384.3 KB[0m [31m7.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pygments
+  Downloading Pygments-2.13.0-py3-none-any.whl (1.1 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━[0m [32m0.6/1.1 MB[0m [31m30.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━[0m [32m0.8/1.1 MB[0m [31m10.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m10.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.36-py3-none-any.whl (386 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/386.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m386.4/386.4 KB[0m [31m11.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jinja2>=3.0
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/133.1 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m133.1/133.1 KB[0m [31m10.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting nbformat>=5.1
+  Downloading nbformat-5.7.1-py3-none-any.whl (77 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/77.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━[0m [32m71.7/77.2 KB[0m [31m1.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m77.2/77.2 KB[0m [31m1.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.2.2-py2.py3-none-any.whl (21 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting tinycss2
+  Downloading tinycss2-1.2.1-py3-none-any.whl (21 kB)
+Collecting jupyter-core>=4.7
+  Downloading jupyter_core-5.1.0-py3-none-any.whl (92 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/92.7 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m92.7/92.7 KB[0m [31m12.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting nbclient>=0.5.0
+  Downloading nbclient-0.7.2-py3-none-any.whl (71 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/72.0 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m72.0/72.0 KB[0m [31m5.0 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting beautifulsoup4
+  Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/128.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m128.2/128.2 KB[0m [31m14.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting mistune<3,>=2.0.3
+  Downloading mistune-2.0.4-py2.py3-none-any.whl (24 kB)
+Collecting bleach
+  Downloading bleach-5.0.1-py3-none-any.whl (160 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/160.9 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━[0m [32m153.6/160.9 KB[0m [31m7.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m160.9/160.9 KB[0m [31m3.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting markupsafe>=2.0
+  Downloading MarkupSafe-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Requirement already satisfied: defusedxml in ./myvirtenv/lib/python3.10/site-packages (from nbconvert->Jupyter) (0.7.1)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.17.1-py3-none-any.whl (17 kB)
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting nbclassic>=0.4.7
+  Downloading nbclassic-0.4.8-py3-none-any.whl (9.8 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/9.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.3/9.8 MB[0m [31m7.1 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/9.8 MB[0m [31m5.5 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.7/9.8 MB[0m [31m5.2 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.0/9.8 MB[0m [31m5.5 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/9.8 MB[0m [31m5.3 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.4/9.8 MB[0m [31m5.0 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/9.8 MB[0m [31m6.2 MB/s[0m eta [36m0:00:02[0m[2K     [38;2;249;38;114m━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.9/9.8 MB[0m [31m7.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/9.8 MB[0m [31m8.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/9.8 MB[0m [31m8.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/9.8 MB[0m [31m8.8 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━[0m [32m6.4/9.8 MB[0m [31m10.6 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━[0m [32m8.8/9.8 MB[0m [31m13.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m9.8/9.8 MB[0m [31m14.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m9.8/9.8 MB[0m [31m14.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m9.8/9.8 MB[0m [31m14.2 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9.8/9.8 MB[0m [31m11.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting Send2Trash>=1.8.0
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.15.0-py3-none-any.whl (60 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/60.1 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m60.1/60.1 KB[0m [31m7.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting qtpy>=2.0.1
+  Downloading QtPy-2.3.0-py3-none-any.whl (83 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/83.6 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m83.6/83.6 KB[0m [31m11.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting stack-data
+  Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+Collecting pexpect>4.3
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/59.0 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m59.0/59.0 KB[0m [31m8.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jedi>=0.16
+  Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.6 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/1.6 MB[0m [31m8.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m1.6/1.6 MB[0m [31m19.3 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/1.6 MB[0m [31m13.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./myvirtenv/lib/python3.10/site-packages (from jupyter-client>=6.1.12->ipykernel->Jupyter) (2.8.2)
+Collecting platformdirs>=2.5
+  Downloading platformdirs-2.6.0-py3-none-any.whl (14 kB)
+Collecting jupyter-server>=1.8
+  Downloading jupyter_server-2.0.2-py3-none-any.whl (360 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/360.9 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m360.9/360.9 KB[0m [31m20.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting notebook-shim>=0.1.0
+  Downloading notebook_shim-0.2.2-py3-none-any.whl (13 kB)
+Collecting jsonschema>=2.6
+  Downloading jsonschema-4.17.3-py3-none-any.whl (90 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/90.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m90.4/90.4 KB[0m [31m5.0 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting fastjsonschema
+  Downloading fastjsonschema-2.16.2-py3-none-any.whl (22 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting ptyprocess
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (86 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/86.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m86.2/86.2 KB[0m [31m12.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting soupsieve>1.2
+  Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: six>=1.9.0 in ./myvirtenv/lib/python3.10/site-packages (from bleach->nbconvert->Jupyter) (1.16.0)
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/100.8 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m100.8/100.8 KB[0m [31m14.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.2-py3-none-any.whl (57 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/57.5 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m57.5/57.5 KB[0m [31m4.1 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting attrs>=17.4.0
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/58.8 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.8/58.8 KB[0m [31m4.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting websocket-client
+  Downloading websocket_client-1.4.2-py3-none-any.whl (55 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/55.3 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m55.3/55.3 KB[0m [31m8.5 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyter-server-terminals
+  Downloading jupyter_server_terminals-0.4.3-py3-none-any.whl (13 kB)
+Collecting anyio<4,>=3.1.0
+  Downloading anyio-3.6.2-py3-none-any.whl (80 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/80.6 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m80.6/80.6 KB[0m [31m13.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting jupyter-events>=0.4.0
+  Downloading jupyter_events-0.5.0-py3-none-any.whl (17 kB)
+Collecting cffi>=1.0.1
+  Downloading cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (441 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/441.8 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m441.8/441.8 KB[0m [31m15.8 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting asttokens>=2.1.0
+  Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting executing>=1.2.0
+  Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+Collecting idna>=2.8
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/61.5 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m61.5/61.5 KB[0m [31m4.7 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting sniffio>=1.1
+  Downloading sniffio-1.3.0-py3-none-any.whl (10 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/118.7 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m118.7/118.7 KB[0m [31m5.3 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting pyyaml
+  Downloading PyYAML-6.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (682 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/682.2 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m [32m675.8/682.2 KB[0m [31m23.4 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m682.2/682.2 KB[0m [31m14.2 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting python-json-logger
+  Downloading python_json_logger-2.0.4-py3-none-any.whl (7.8 kB)
+Collecting webcolors>=1.11
+  Downloading webcolors-1.12-py3-none-any.whl (9.9 kB)
+Collecting isoduration
+  Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting rfc3986-validator>0.1.0
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Collecting rfc3339-validator
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Collecting uri-template
+  Downloading uri_template-1.2.0-py3-none-any.whl (10 kB)
+Collecting fqdn
+  Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting jsonpointer>1.13
+  Downloading jsonpointer-2.3-py2.py3-none-any.whl (7.8 kB)
+Collecting arrow>=0.15.0
+  Downloading arrow-1.2.3-py3-none-any.whl (66 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/66.4 KB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m66.4/66.4 KB[0m [31m5.3 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: webencodings, wcwidth, Send2Trash, pure-eval, ptyprocess, pickleshare, mistune, ipython-genutils, fastjsonschema, executing, backcall, widgetsnbextension, websocket-client, webcolors, uri-template, traitlets, tornado, tinycss2, soupsieve, sniffio, rfc3986-validator, rfc3339-validator, qtpy, pyzmq, pyyaml, python-json-logger, pyrsistent, pygments, pycparser, prompt-toolkit, prometheus-client, platformdirs, pexpect, parso, pandocfilters, nest-asyncio, markupsafe, jupyterlab-widgets, jupyterlab-pygments, jsonpointer, idna, fqdn, entrypoints, decorator, debugpy, bleach, attrs, asttokens, terminado, stack-data, matplotlib-inline, jupyter-core, jsonschema, jinja2, jedi, comm, cffi, beautifulsoup4, arrow, anyio, nbformat, jupyter-server-terminals, jupyter-client, isoduration, ipython, argon2-cffi-bindings, nbclient, ipykernel, argon2-cffi, qtconsole, nbconvert, jupyter-events, jupyter-console, ipywidgets, jupyter-server, notebook-shim, nbclassic, notebook, Jupyter
+Successfully installed Jupyter-1.0.0 Send2Trash-1.8.0 anyio-3.6.2 argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 arrow-1.2.3 asttokens-2.2.1 attrs-22.1.0 backcall-0.2.0 beautifulsoup4-4.11.1 bleach-5.0.1 cffi-1.15.1 comm-0.1.2 debugpy-1.6.4 decorator-5.1.1 entrypoints-0.4 executing-1.2.0 fastjsonschema-2.16.2 fqdn-1.5.1 idna-3.4 ipykernel-6.19.4 ipython-8.7.0 ipython-genutils-0.2.0 ipywidgets-8.0.3 isoduration-20.11.0 jedi-0.18.2 jinja2-3.1.2 jsonpointer-2.3 jsonschema-4.17.3 jupyter-client-7.4.8 jupyter-console-6.4.4 jupyter-core-5.1.0 jupyter-events-0.5.0 jupyter-server-2.0.2 jupyter-server-terminals-0.4.3 jupyterlab-pygments-0.2.2 jupyterlab-widgets-3.0.4 markupsafe-2.1.1 matplotlib-inline-0.1.6 mistune-2.0.4 nbclassic-0.4.8 nbclient-0.7.2 nbconvert-7.2.7 nbformat-5.7.1 nest-asyncio-1.5.6 notebook-6.5.2 notebook-shim-0.2.2 pandocfilters-1.5.0 parso-0.8.3 pexpect-4.8.0 pickleshare-0.7.5 platformdirs-2.6.0 prometheus-client-0.15.0 prompt-toolkit-3.0.36 ptyprocess-0.7.0 pure-eval-0.2.2 pycparser-2.21 pygments-2.13.0 pyrsistent-0.19.2 python-json-logger-2.0.4 pyyaml-6.0 pyzmq-24.0.1 qtconsole-5.4.0 qtpy-2.3.0 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 sniffio-1.3.0 soupsieve-2.3.2.post1 stack-data-0.6.2 terminado-0.17.1 tinycss2-1.2.1 tornado-6.2 traitlets-5.8.0 uri-template-1.2.0 wcwidth-0.2.5 webcolors-1.12 webencodings-0.5.1 websocket-client-1.4.2 widgetsnbextension-4.0.4
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ jupyter-notebook
+[?2004l[32m[I 23:01:00.838 NotebookApp](B[m Writing notebook server cookie secret to /home/alumno/.local/share/jupyter/runtime/notebook_cookie_secret
+[32m[I 23:01:01.315 NotebookApp](B[m Serving notebooks from local directory: /home/alumno
+[32m[I 23:01:01.315 NotebookApp](B[m Jupyter Notebook 6.5.2 is running at:
+[32m[I 23:01:01.315 NotebookApp](B[m http://localhost:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+[32m[I 23:01:01.316 NotebookApp](B[m  or http://127.0.0.1:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+[32m[I 23:01:01.316 NotebookApp](B[m Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[35m[C 23:01:01.524 NotebookApp](B[m 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/alumno/.local/share/jupyter/runtime/nbserver-3515-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+     or http://127.0.0.1:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+[32m[I 23:04:01.575 NotebookApp](B[m Creating new notebook in /FC/fc-alumno
+[32m[I 23:04:01.850 NotebookApp](B[m Writing notebook-signing key to /home/alumno/.local/share/jupyter/notebook_secret
+[32m[I 23:04:07.766 NotebookApp](B[m Kernel started: eaa70bba-b716-4b50-93d1-8c595ecba289, name: python3
+[32m[I 23:06:07.757 NotebookApp](B[m Saving file at /FC/fc-alumno/Untitled.ipynb
+/home/alumno/myvirtenv/lib/python3.10/site-packages/nbformat/__init__.py:129: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/home/alumno/myvirtenv/lib/python3.10/site-packages/notebook/services/contents/manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[32m[I 23:06:20.206 NotebookApp](B[m 302 GET /tree/FC/fc-alumno (127.0.0.1) 28.630000ms
+[33m[W 23:06:28.953 NotebookApp](B[m 404 GET /api/contents/FC/fc-alumno/imagen2.ipynb?type=notebook&content=0&_=1671573845805 (127.0.0.1): file or directory does not exist: 'FC/fc-alumno/imagen2.ipynb'
+[33m[W 23:06:28.954 NotebookApp](B[m file or directory does not exist: 'FC/fc-alumno/imagen2.ipynb'
+[33m[W 23:06:28.955 NotebookApp](B[m 404 GET /api/contents/FC/fc-alumno/imagen2.ipynb?type=notebook&content=0&_=1671573845805 (127.0.0.1) 14.940000ms referer=http://localhost:8888/notebooks/FC/fc-alumno/Untitled.ipynb?kernel_name=python3
+[32m[I 23:06:29.164 NotebookApp](B[m Uploading file to /FC/fc-alumno/imagen2.ipynb
+[32m[I 23:06:42.964 NotebookApp](B[m Starting buffering for eaa70bba-b716-4b50-93d1-8c595ecba289:1536f1977e2c4b2e83bdd4062e3d5b13
+^C[32m[I 23:06:57.534 NotebookApp](B[m interrupted
+Serving notebooks from local directory: /home/alumno
+1 active kernel
+Jupyter Notebook 6.5.2 is running at:
+http://localhost:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+ or http://127.0.0.1:8888/?token=1c3dd9c685b2a089072f418172bbd6bb57328b6452dfe08e
+Shutdown this notebook server (y/[n])? yNo answer for 5s: resuming operation...
+
+^Z
+[1]+  Detenido                jupyter-notebook
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ cd FC
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~/FC[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC[00m$ cd[K[Kexit
+[?2004lexit
+Hay trabajos detenidos.
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~/FC[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC[00m$ cd
+[?2004l[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+Hay trabajos detenidos.
+[?2004h(myvirtenv) ]0;alumno@alumno-VirtualBox: ~[01;32malumno@alumno-VirtualBox[00m:[01;34m~[00m$ exit
+[?2004lexit
+[35m[C 23:07:42.376 NotebookApp](B[m received signal 15, stopping
+[32m[I 23:07:42.396 NotebookApp](B[m Shutting down 1 kernel
+
+Script done on 2022-12-20 23:07:42+01:00 [COMMAND_EXIT_CODE="1"]
