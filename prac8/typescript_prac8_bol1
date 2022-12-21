@@ -1,0 +1,1669 @@
+Script started on 2022-12-21 16:11:44+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="41"]
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8[00m$ exit
+[?2004lexit
+
+Script done on 2022-12-21 16:12:15+01:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-12-21 16:24:11+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="41"]
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8[00m$ cd boletin1/Archivo\ comprimido\
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8[00m$ cd boletin1/Archivo\ comprimido\[K/
+[?2004lbash: cd: boletin1/Archivo comprimido/: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8[00m$ cd boletin1
+[?2004lbash: cd: boletin1: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8[00m$ cd boletin1/Archivo\ comprimido/\exit[K[2Pcdexitcd FCjupyter-notebookpip3 install Jupytersource myvirtenv/bin/activate[9Ppip3 install Jupyter[4Pjupyter-notebookcd FC[K[1Pexit[2Pcdexitcd boletin1/Archivo\ comprimido\/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KArchivo|[K\ comprimido/
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido[00m$ cd prac8
+[?2004lbash: cd: prac8: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido[00m$ cd boletin1
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[00m$ cd hola
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mhola.static[m...
+(No debugging symbols found in [32mhola.static[m)
+[?2004h(gdb) layout split
+[?2004l[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[H[2J(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[14;52H(0[0m[36m[39m(B(B[m[ No Source Available ][150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0m[36m[39m(B[0;7mexec No process In:                                                                                                                      L??   PC: ?? [27;150H(B[m[?1h=[28d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0;1;7m[36m[39m(B(B[m[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[14;52H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0;1;7m[36m[39m(B[0;7mexec No process In:                                                                                                                      L??   PC: ?? [27;1H(B[m[2;25r[25;1H[7S[1;41r[13;1H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[20;50H(0[0m[36m[39m(B(B[m[ No Assembly Available ][150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0m[36m[39m(B(B[m[14;6H[34m0x401775[39m(B[m <[33mmain[39m(B[m>[14;38Hendbr64[15;6H[34m0x401779[39m(B[m <[33mmain[39m(B[m+4>[15;38Hpush   %rbp[16;6H[34m0x40177a[39m(B[m <[33mmain[39m(B[m+5>[16;38Hmov    %rsp,%rbp[17;6H[34m0x40177d[39m(B[m <[33mmain[39m(B[m+8>[17;38Hlea    0x96880(%rip),%rax[17;71H# [34m0x498004[18;6H0x401784[39m(B[m <[33mmain[39m(B[m+15>[18;38Hmov    %rax,%rdi[19;6H[34m0x401787[39m(B[m <[33mmain[39m(B[m+18>[19;38Hcall   [34m0x40c140[39m(B[m <[33mputs[39m(B[m>[20;6H[34m0x40178c[39m(B[m <[33mmain[39m(B[m+23>[20;38Hmov    $0x0,%eax[21X[21;6H[34m0x401791[39m(B[m <[33mmain[39m(B[m+28>[21;38Hpop    %rbp[22;6H[34m0x401792[39m(B[m <[33mmain[39m(B[m+29>[22;38Hret[23;6H[34m0x401793[23;38H[39m(B[mcs nopw 0x0(%rax,%rax,1)[24;6H[34m0x40179d[24;38H[39m(B[mnopl   (%rax)[25;6H[34m0x4017a0[39m(B[m <[33mhandle_zhaoxin[39m(B[m>[38Gpush   %rbx[?1006;1000h[28d(gdb) exit[?1006;1000l[?1006;1000l[41;1H[?1049l[23;0;0t[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mhola.static[m...
+(No debugging symbols found in [32mhola.static[m)
+[?2004h(gdb) break puts
+[?2004lPunto de interrupción 1 at [34m0x40c140[m
+[?2004h(gdb) break write
+[?2004lPunto de interrupción 2 at [34m0x447320[m
+[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.static[m 
+
+Breakpoint 1, [34m0x000000000040c140[m in [33mputs[m ()
+[?2004h[?2004l[?2004h(gdb) info registers rip
+[?2004lrip            0x40c140            0x40c140 <puts>
+[?2004h(gdb) disassemble main
+[?2004lDump of assembler code for function [33mmain[m:
+   [34m0x0000000000401775[m <+0>:	endbr64 
+   [34m0x0000000000401779[m <+4>:	push   %rbp
+   [34m0x000000000040177a[m <+5>:	mov    %rsp,%rbp
+   [34m0x000000000040177d[m <+8>:	lea    0x96880(%rip),%rax        # [34m0x498004[m
+   [34m0x0000000000401784[m <+15>:	mov    %rax,%rdi
+   [34m0x0000000000401787[m <+18>:	call   [34m0x40c140[m <[33mputs[m>
+   [34m0x000000000040178c[m <+23>:	mov    $0x0,%eax
+   [34m0x0000000000401791[m <+28>:	pop    %rbp
+   [34m0x0000000000401792[m <+29>:	ret    
+End of assembler dump.
+[?2004h(gdb) x/10i puts
+[?2004l=> [34m0x40c140[m <[33mputs[m>:	endbr64 
+   [34m0x40c144[m <[33mputs[m+4>:	push   %r13
+   [34m0x40c146[m <[33mputs[m+6>:	push   %r12
+   [34m0x40c148[m <[33mputs[m+8>:	mov    %rdi,%r12
+   [34m0x40c14b[m <[33mputs[m+11>:	push   %rbp
+   [34m0x40c14c[m <[33mputs[m+12>:	push   %rbx
+   [34m0x40c14d[m <[33mputs[m+13>:	sub    $0x18,%rsp
+   [34m0x40c151[m <[33mputs[m+17>:	call   [34m0x401180[m
+   [34m0x40c156[m <[33mputs[m+22>:	mov    0xb9593(%rip),%rbp        # [34m0x4c56f0[m <[33mstdout[m>
+   [34m0x40c15d[m <[33mputs[m+29>:	mov    %rax,%rbx
+[?2004h(gdb) info registers rip
+[?2004lrip            0x40c140            0x40c140 <puts>
+[?2004h(gdb) #0x40c140
+[?2004l[?2004h(gdb) continue
+[?2004lContinuando.
+
+Breakpoint 2, [34m0x0000000000447320[m in [33mwrite[m ()
+[?2004h[?2004l[?2004h(gdb) backtrace
+[?2004l#0  [34m0x0000000000447320[m in [33mwrite[m ()
+#1  [34m0x000000000040f5ed[m in [33m_IO_new_file_write[m ()
+#2  [34m0x0000000000410760[m in [33m_IO_new_do_write[m ()
+#3  [34m0x0000000000411233[m in [33m_IO_new_file_overflow[m ()
+#4  [34m0x000000000040c2a2[m in [33mputs[m ()
+#5  [34m0x000000000040178c[m in [33mmain[m ()
+[?2004h(gdb) #[7m0x0000000000447320[27m[C[C[C[C[C[C[C0x0000000000447320
+[?2004l[?2004h(gdb) x/10iwrite[K[K[K[K[K write
+[?2004l=> [34m0x447320[m <[33mwrite[m>:	endbr64 
+   [34m0x447324[m <[33mwrite[m+4>:	mov    %fs:0x18,%eax
+   [34m0x44732c[m <[33mwrite[m+12>:	test   %eax,%eax
+   [34m0x44732e[m <[33mwrite[m+14>:	jne    [34m0x447340[m <[33mwrite[m+32>
+   [34m0x447330[m <[33mwrite[m+16>:	mov    $0x1,%eax
+   [34m0x447335[m <[33mwrite[m+21>:	syscall 
+   [34m0x447337[m <[33mwrite[m+23>:	cmp    $0xfffffffffffff000,%rax
+   [34m0x44733d[m <[33mwrite[m+29>:	ja     [34m0x447390[m <[33mwrite[m+112>
+   [34m0x44733f[m <[33mwrite[m+31>:	ret    
+   [34m0x447340[m <[33mwrite[m+32>:	sub    $0x28,%rsp
+[?2004h(gdb) #la f uncion main
+[?2004l[?2004h(gdb) #la f uncion main[C[C[C[C[C[C[6Px/10i write
+[?2004l=> [34m0x447320[m <[33mwrite[m>:	endbr64 
+   [34m0x447324[m <[33mwrite[m+4>:	mov    %fs:0x18,%eax
+   [34m0x44732c[m <[33mwrite[m+12>:	test   %eax,%eax
+   [34m0x44732e[m <[33mwrite[m+14>:	jne    [34m0x447340[m <[33mwrite[m+32>
+   [34m0x447330[m <[33mwrite[m+16>:	mov    $0x1,%eax
+   [34m0x447335[m <[33mwrite[m+21>:	syscall 
+   [34m0x447337[m <[33mwrite[m+23>:	cmp    $0xfffffffffffff000,%rax
+   [34m0x44733d[m <[33mwrite[m+29>:	ja     [34m0x447390[m <[33mwrite[m+112>
+   [34m0x44733f[m <[33mwrite[m+31>:	ret    
+   [34m0x447340[m <[33mwrite[m+32>:	sub    $0x28,%rsp
+[?2004h(gdb) #10[K[Kla funcion s[Kde main
+[?2004l[?2004h(gdb) #la funcion de main[C[C[C[C[C[C[8Px/10i write
+[?2004l=> [34m0x447320[m <[33mwrite[m>:	endbr64 
+   [34m0x447324[m <[33mwrite[m+4>:	mov    %fs:0x18,%eax
+   [34m0x44732c[m <[33mwrite[m+12>:	test   %eax,%eax
+   [34m0x44732e[m <[33mwrite[m+14>:	jne    [34m0x447340[m <[33mwrite[m+32>
+   [34m0x447330[m <[33mwrite[m+16>:	mov    $0x1,%eax
+   [34m0x447335[m <[33mwrite[m+21>:	syscall 
+   [34m0x447337[m <[33mwrite[m+23>:	cmp    $0xfffffffffffff000,%rax
+   [34m0x44733d[m <[33mwrite[m+29>:	ja     [34m0x447390[m <[33mwrite[m+112>
+   [34m0x44733f[m <[33mwrite[m+31>:	ret    
+   [34m0x447340[m <[33mwrite[m+32>:	sub    $0x28,%rsp
+[?2004h(gdb) #10
+[?2004l[?2004h(gdb) #5
+[?2004l[?2004h(gdb) stepi 5
+[?2004l[34m0x0000000000447335[m in [33mwrite[m ()
+[?2004h[?2004l[?2004h(gdb) RDI
+[?2004lorden indefinida: «RDI». Intente con «help»
+[?2004h(gdb) #RDI: 1
+[?2004l[?2004h(gdb) #RDX: 13
+[?2004l[?2004h(gdb) #rsi[K[K[KRSI: 5040000
+[?2004l[?2004h(gdb) #a la pantalla
+[?2004l[?2004h(gdb) x/13bc 0x[K[KO[K0x4ce780
+[?2004l[34m0x4ce780[m:	-80 '\260'	-32 '\340'	76 'L'	0 '\000'	0 '\000'	0 '\000'	0 '\000'	0 '\000'
+[34m0x4ce788[m:	84 'T'	-43 '\325'	-1 '\377'	-9 '\367'	-1 '\377'
+[?2004h(gdb) #se va a escribi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstepi
+[?2004lHola, mundo!
+[34m0x0000000000447337[m in [33mwrite[m ()
+[?2004h[?2004l[?2004h(gdb) # se va a es[K[Kver ¿[K¡Hola[K[K[K[K[KHola,M[K mundo!
+[?2004l[?2004h(gdb) #La función write
+[?2004l[?2004h(gdb) exit
+[?2004l[?2004hUna sesión de depuración está activa.
+
+	Inferior 1 [process 7256] will be killed.
+
+¿Salir de cualquier modo? (y or n) y
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ ## ejercicio 2
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) b main
+[?2004lNo hay tabla de símbolos cargada. Use la orden «file».
+[?2004hMake breakpoint pending on future shared library load? (y or [n]) y
+[?2004lPunto de interrupción 1 (main) pendiente.
+[?2004h(gdb) lsyout[K[K[K[K[Kayout split
+[?2004l[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[H[2J(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[14;52H(0[0m[36m[39m(B(B[m[ No Source Available ][150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0m[36m[39m(B[0;7mNone No process In:                                                                                                                      L??   PC: ?? [27;150H(B[m[?1h=[28d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0;1;7m[36m[39m(B(B[m[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[14;52H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0;1;7m[36m[39m(B[0;7mNone No process In:                                                                                                                      L??   PC: ?? [27;1H(B[m[2;25r[25;1H[7S[1;41r[13;1H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[20;50H(0[0m[36m[39m(B(B[m[ No Assembly Available ][150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0m[36m[39m(B(B[m[?1006;1000h[28d(gdb) exit[?1006;1000l[?1006;1000l[41;1H[?1049l[23;0;0t[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ cd ..
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[00m$ cd ..gdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[00m$ cd global
+[?2004lbash: cd: global: No existe el archivo o el directorio
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1[00m$ cd globals
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ cd globals[Kgdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gcc -g -static gol[K[Klobals-c -o globals.static
+[?2004l/usr/bin/ld: no se puede encontrar globals-c: No existe el archivo o el directorio
+collect2: error: ld returned 1 exit status
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gcc -g -static globals-c -o globals.static[1P[1@.
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) b main
+[?2004lNo hay tabla de símbolos cargada. Use la orden «file».
+[?2004hMake breakpoint pending on future shared library load? (y or [n]) print array[K[K[K[K[K[K[K[K[K[K[Ky
+[?2004lPunto de interrupción 1 (main) pendiente.
+[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ less global.sa¡ta[K[K[K[Kta[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgdb global.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+global.static: No existe el archivo o el directorio.
+[?2004h(gdb) layout spl[Klit
+[?2004l[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[H[2J(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[14;52H(0[0m[36m[39m(B(B[m[ No Source Available ][150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0m[36m[39m(B[0;7mNone No process In:                                                                                                                      L??   PC: ?? [27;150H(B[m[?1h=[28d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0;1;7m[36m[39m(B(B[m[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[14;52H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0;1;7m[36m[39m(B[0;7mNone No process In:                                                                                                                      L??   PC: ?? [27;1H(B[m[2;25r[25;1H[7S[1;41r[13;1H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[20;50H(0[0m[36m[39m(B(B[m[ No Assembly Available ][150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0m[36m[39m(B(B[m[?1006;1000h[28d(gdb) exit[?1006;1000l[?1006;1000l[41;1H[?1049l[23;0;0t[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gcc -g -static globals.c -o globals.static
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gdb go[Klobals.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mglobals.static[m...
+[?2004h(gdb) layot¡[K[Kut split
+[?2004l[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[H[2J(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[14;52H(0[0m[36m[39m(B(B[m[ No Source Available ][150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0m[36m[39m(B[0;7mexec No process In:                                                                                                                      L??   PC: ?? [27;150H(B[m[?1h=[28d[H(0[0;1;7m[36mlq(B[0;1;7m[36mglobals.c(0[0;1;7m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[2;13H(0[0;1;7m[36m(B[0m[32mint[39m(B[m (B[0;1mmain(B[0m[31m()[39m(B[m [31m{[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[3;17H(0[0;1;7m[36m(B[0m[32mint[39m(B[m i [31m=[39m(B[m [35m0[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[4;17H(0[0;1;7m[36m(B[0;1m[34mwhile(B[0m[31m([39m(B[mi [31m<[39m(B[m ARRAY_SIZE[31m)[39m(B[m [31m{[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[5;21H(0[0;1;7m[36m[39m(B(B[marray[31m[[39m(B[mi[31m][39m(B[m [31m=[39m(B[m [31m-[35m1[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[6;21H(0[0;1;7m[36m(B[0m[31m++[39m(B[mi[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[7;17H(0[0;1;7m[36m(B[0m[31m}[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[8;13H(0[0;1;7m[36m(B[0m[31m}[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[14;52H(0[0;1;7m[36m[39m(B(B[m[23X[150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[25;13H(0[0;1;7m[36m[39m(B(B[m[2;10H5[3d6[4d7[5d8[6d9[7d10[8d11[9d12[10d13[11d14[12d15[13d16[14d17[15d18[16d19[17d20[18d21[19d22[20d23[21d24[22d25[23d26[24d27[25d28  [27;150H[H[2J(0[0;1;7m[36mlq(B[0;1;7m[36mglobals.c(0[0;1;7m[36mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[2;10H(0[0;1;7m[36m[39m(B(B[m5  [32mint[39m(B[m (B[0;1mmain(B[0m[31m()[39m(B[m [31m{[150G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[3;10H(0[0;1;7m[36m[39m(B(B[m6[17G[32mint[39m(B[m i [31m=[39m(B[m [35m0[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[4;10H(0[0;1;7m[36m[39m(B(B[m7[17G(B[0;1m[34mwhile(B[0m[31m([39m(B[mi [31m<[39m(B[m ARRAY_SIZE[31m)[39m(B[m [31m{[150G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[5;10H(0[0;1;7m[36m[39m(B(B[m8[5;21Harray[31m[[39m(B[mi[31m][39m(B[m [31m=[39m(B[m [31m-[35m1[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[6;10H(0[0;1;7m[36m[39m(B(B[m9[6;21H[31m++[39m(B[mi[31m;[150G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m10[17G[31m}[150G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m11  [31m}[150G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m12[150G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m13[150G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m14[150G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m15[150G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m16[150G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m17[150G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m18[150G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m19[150G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m20[150G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m21[150G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m22[150G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m23[150G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m24[150G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m25[150G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m26[150G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m27[150G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[9G(0[0;1;7m[36m[39m(B(B[m28[150G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0;1;7m[36m[39m(B[0;7mexec No process In:                                                                                                                      L??   PC: ?? [25;13H(B[m[27d[2;10H [3d [4d [5d [6d [7d  [8d  [9d  [10d  [11d  [12d  [13d(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[1;12H(0[0;1;7m[36m[39m(B(B[m[12;13H[2;10H5[3d6[4d7[5d8[6d9[7d10[8d11[9d12[10d13[11d14[12d15  [13d(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [20;50H[ No Assembly Available ][150G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[9G(0[0m[36m[39m(B(B[m  [150G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;150H(0[0m[36m[39m(B(B[m[13d(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[12;13H(0[0;1;7m[36m[39m(B(B[m[13d(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[14;6H(0[0m[36m(B[0m[34m0x401745[39m(B[m <[33mmain[39m(B[m>[14;30Hendbr64[15;6H[34m0x401749[39m(B[m <[33mmain[39m(B[m+4>[30Gpush   %rbp[16;6H[34m0x40174a[39m(B[m <[33mmain[39m(B[m+5>[30Gmov    %rsp,%rbp[17;6H[34m0x40174d[39m(B[m <[33mmain[39m(B[m+8>[30Gmovl   $0x0,-0x4(%rbp)[18;6H[34m0x401754[39m(B[m <[33mmain[39m(B[m+15>[30Gjmp    [34m0x401775[39m(B[m <[33mmain[39m(B[m+48>[19;6H[34m0x401756[39m(B[m <[33mmain[39m(B[m+17>[30Gmov    -0x4(%rbp),%eax[20;6H[34m0x401759[39m(B[m <[33mmain[39m(B[m+20>[30Gcltq[20;50H[25X[21;6H[34m0x40175b[39m(B[m <[33mmain[39m(B[m+22>[30Glea    0x0(,%rax,4),%rdx[22;6H[34m0x401763[39m(B[m <[33mmain[39m(B[m+30>[30Glea    0xc3996(%rip),%rax[22;63H# [34m0x4c5100[39m(B[m <[33marray[39m(B[m>[23;6H[34m0x40176a[39m(B[m <[33mmain[39m(B[m+37>[30Gmovl   $0xffffffff,(%rdx,%rax,1)[24;6H[34m0x401771[39m(B[m <[33mmain[39m(B[m+44>[30Gaddl   $0x1,-0x4(%rbp)[25;6H[34m0x401775[39m(B[m <[33mmain[39m(B[m+48>[30Gcmpl   $0x9,-0x4(%rbp)[?1006;1000h[28d(gdb) exit[?1006;1000l[?1006;1000l[41;1H[?1049l[23;0;0t[?1l>[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ gdb globals.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mglobals.static[m...
+[?2004h(gdb) b main
+[?2004lPunto de interrupción 1 at [34m0x40174d[m: file [32mglobals.c[m, line 6.
+[?2004h(gdb) print array
+[?2004l$1 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print i
+[?2004lNo symbol "i" in current context.
+[?2004h(gdb) #no hay tabka[K[Kla cargado[Ka
+[?2004l[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals/globals.static[m 
+
+Breakpoint 1, [33mmain[m () at [32mglobals.c[m:6
+6	    [32mint[m i [31m=[m [35m0[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) print i
+[?2004l$2 = 0
+[?2004h(gdb) #porque i es una [K[K[K[K[K[Ks una variable local y hasta que no se ejecute el programa no obtiene el valor
+[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) print i
+[?2004l$3 = 0
+[?2004h(gdb) print array
+[?2004l$4 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) /40[K[K[Kx / 40bx array[1P[1P
+[?2004l[34m0x4c5100[m <[33marray[m>:	0x0a	0x00	0x00	0x00	0x09	0x00	0x00	0x00
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$5 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepprint array[C[C[C[C[C[C[Kprint array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0x0a	0x00	0x00	0x00	0x09	0x00	0x00	0x00
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[K[K[K[K[K[K[K[K[K[K[K[Kprint array[C[C[C[C[C[C[7Pstep
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step[Kprint array
+[?2004l$6 = {-1, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstep[Kprint array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0x09	0x00	0x00	0x00
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$7 = {-1, -1, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$8 = {-1, -1, 8, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0x08	0x00	0x00	0x00	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[8Pstep
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[8Pstepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$9 = {-1, -1, -1, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0xff	0xff	0xff	0xff	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$10 = {-1, -1, -1, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0xff	0xff	0xff	0xff	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) stepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C
+[?2004l$11 = {-1, -1, -1, 7, 6, 5, 4, 3, 2, 1}
+[?2004h(gdb) print array[C[C[C[C[C[C[7Pstepprint array[C[C[C[C[C[C[Kprint array[C[C[C[C[C[C[7Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0xff	0xff	0xff	0xff	0x07	0x00	0x00	0x00
+[34m0x4c5110[m <[33marray[m+16>:	0x06	0x00	0x00	0x00	0x05	0x00	0x00	0x00
+[34m0x4c5118[m <[33marray[m+24>:	0x04	0x00	0x00	0x00	0x03	0x00	0x00	0x00
+[34m0x4c5120[m <[33marray[m+32>:	0x02	0x00	0x00	0x00	0x01	0x00	0x00	0x00
+[?2004h(gdb) x/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstep
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l11	[31m}[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l[34m0x0000000000401bba[m in [33m__libc_start_call_main[m ()
+[?2004h[?2004l[?2004h(gdb) print i
+[?2004lNo symbol "i" in current context.
+[?2004h(gdb) run
+[?2004l[?2004hThe program being debugged has been started already.
+Start it from the beginning? (y or n) y
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals/globals.static[m 
+
+Breakpoint 1, [33mmain[m () at [32mglobals.c[m:6
+6	    [32mint[m i [31m=[m [35m0[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) runprint i[3Pstep
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l8	        array[31m[[mi[31m][m [31m=[m [31m-[m[35m1[m[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l9	        [31m++[mi[31m;[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l7	    [01;34mwhile[m[31m([mi [31m<[m ARRAY_SIZE[31m)[m [31m{[m
+[?2004h[?2004l[?2004h(gdb) step
+[?2004l11	[31m}[m
+[?2004h[?2004l[?2004h(gdb) step[K[K[K[Kprint i
+[?2004l$12 = 10
+[?2004h(gdb) print i[3Pstep[1Prunprint i[3Pstepprint i[4Prunstep[1Prunprint i[3Pstepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[7Pstepx/40bx array[C[C[C[C[C[C[1Pprint[C[C[C[C[C[C[C[C[C[C[C[C[1@x/40bx[C[C[C[C[C[C[C[C[C[C[C[C[8Pstepx/40bx array
+[?2004l[34m0x4c5100[m <[33marray[m>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5108[m <[33marray[m+8>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5110[m <[33marray[m+16>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5118[m <[33marray[m+24>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[34m0x4c5120[m <[33marray[m+32>:	0xff	0xff	0xff	0xff	0xff	0xff	0xff	0xff
+[?2004h(gdb) # a[Kha cambiado de 0x00 a 0xff
+[?2004l[?2004h(gdb) exit
+[?2004l[?2004hUna sesión de depuración está activa.
+
+	Inferior 1 [process 7438] will be killed.
+
+¿Salir de cualquier modo? (y or n) y
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ ## ejercicio 3
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ [7mdiff -u globals.c globals_long.c [27mdiff -u globals.c globals_long.c 
+[?2004l--- globals.c	2022-11-10 13:01:55.000000000 +0100
++++ globals_long.c	2022-11-10 13:01:55.000000000 +0100
+@@ -1,6 +1,6 @@
+ #define ARRAY_SIZE 10
+ 
+-int array[ARRAY_SIZE] = {10,9,8,7,6,5,4,3,2,1};
++long int array[ARRAY_SIZE] = {10,9,8,7,6,5,4,3,2,1};
+ 
+ int main() {
+     int i = 0;
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ # se diferencia en las variables
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ [7mgcc -g globals_long.c -o globals_long; gdb globals_long[27mgcc -g globals_long.c -o globals_long; gdb globals_long
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mglobals_long[m...
+[?2004h(gdb) x/80x[Kbx array
+[?2004l[34m0x4020[m <[33marray[m>:	0x0a	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4028[m <[33marray[m+8>:	0x09	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4030[m <[33marray[m+16>:	0x08	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4038[m <[33marray[m+24>:	0x07	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4040[m <[33marray[m+32>:	0x06	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4048[m <[33marray[m+40>:	0x05	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4050[m <[33marray[m+48>:	0x04	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4058[m <[33marray[m+56>:	0x03	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4060[m <[33marray[m+64>:	0x02	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[34m0x4068[m <[33marray[m+72>:	0x01	0x00	0x00	0x00	0x00	0x00	0x00	0x00
+[?2004h(gdb) #10
+[?2004l[?2004h(gdb) #0x4068
+[?2004l[?2004h(gdb) [7mdiff -u globals.c globals_float.c [27m[C[C[C[C[C[Cdiff -u globals.c globals_float.c 
+[?2004lorden indefinida: «diff». Intente con «help»
+[?2004h(gdb) [7mdiff -u globals.c globals_float.c[27m[C[C[C[C[C[Cdiff -u globals.c globals_float.c
+[?2004lorden indefinida: «diff». Intente con «help»
+[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ [7mdiff -u globals.c globals_float.c[27mdiff -u globals.c globals_float.c
+[?2004l--- globals.c	2022-11-10 13:01:55.000000000 +0100
++++ globals_float.c	2022-11-10 13:01:55.000000000 +0100
+@@ -1,6 +1,6 @@
+ #define ARRAY_SIZE 10
+ 
+-int array[ARRAY_SIZE] = {10,9,8,7,6,5,4,3,2,1};
++float array[ARRAY_SIZE] = {10,9,8,7,6,5,4,3,2,1};
+ 
+ int main() {
+     int i = 0;
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ # se diferencianen [K[K[K en el tipo de array el globals_float.c tiene array s tipo float
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ [7mgcc -g globals_float.c -o globals_float; gdb globals_float[27mgcc -g globals_float.c -o globals_float; gdb globals_float
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mglobals_float[m...
+[?2004h(gdb) x7[K/40bxa[K array
+[?2004l[34m0x4020[m <[33marray[m>:	0x00	0x00	0x20	0x41	0x00	0x00	0x10	0x41
+[34m0x4028[m <[33marray[m+8>:	0x00	0x00	0x00	0x41	0x00	0x00	0xe0	0x40
+[34m0x4030[m <[33marray[m+16>:	0x00	0x00	0xc0	0x40	0x00	0x00	0xa0	0x40
+[34m0x4038[m <[33marray[m+24>:	0x00	0x00	0x80	0x40	0x00	0x00	0x40	0x40
+[34m0x4040[m <[33marray[m+32>:	0x00	0x00	0x00	0x40	0x00	0x00	0x80	0x3f
+[?2004h(gdb) #32 bytes
+[?2004l[?2004h(gdb) #0x4040
+[?2004l[?2004h(gdb) step
+[?2004lEste programa no está corriendo.
+[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals/globals_float[m 
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "[32m/lib/x86_64-linux-gnu/libthread_db.so.1[m".
+[Inferior 1 (process 7491) exited normally]
+[?2004h[?2004l[?2004h(gdb) at[K[Kstep
+[?2004lEste programa no está corriendo.
+[?2004h(gdb) [7m# 0x55555555513a main+176[27m[C[C[C[C[C[C# 0x55555555513a main+176
+[?2004l[?2004h(gdb) exit
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ # ejercicio 4
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ [7mgcc -g hola.c -o hola.dynamic[27mgcc -g hola.c -o hola.dynamic
+[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Khola.c: No existe el archivo o el directorio
+compilation terminated.
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/globals[00m$ cd ../hoola[K[K[Kla
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ cd ../hola[Kcd ../holagcc -g hola.c -o hola.dynamic
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.dynamic
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mhola.dynamic[m...
+[?2004h(gdb) reak [K[K[K[K[Kbreak puts
+[?2004lPunto de interrupción 1 at [34m0x1050[m
+[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.dynamic[m 
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "[32m/lib/x86_64-linux-gnu/libthread_db.so.1[m".
+
+Breakpoint 1, [33m__GI__IO_puts[m ([36mstr[m=0x555555556004 "Hola, mundo!") at [32m./libio/ioputs.c[m:33
+33	./libio/ioputs.c: No existe el archivo o el directorio.
+[?2004h[?2004l[?2004h(gdb) x/10i main
+[?2004l   [34m0x555555555149[m <[33mmain[m>:	endbr64 
+   [34m0x55555555514d[m <[33mmain[m+4>:	push   %rbp
+   [34m0x55555555514e[m <[33mmain[m+5>:	mov    %rsp,%rbp
+   [34m0x555555555151[m <[33mmain[m+8>:	lea    0xeac(%rip),%rax        # [34m0x555555556004[m
+   [34m0x555555555158[m <[33mmain[m+15>:	mov    %rax,%rdi
+   [34m0x55555555515b[m <[33mmain[m+18>:	call   [34m0x555555555050[m <[33mputs@plt[m>
+   [34m0x555555555160[m <[33mmain[m+23>:	mov    $0x0,%eax
+   [34m0x555555555165[m <[33mmain[m+28>:	pop    %rbp
+   [34m0x555555555166[m <[33mmain[m+29>:	ret    
+   [34m0x555555555167[m:	add    %dh,%bl
+[?2004h(gdb) x/10i puts
+[?2004l=> [34m0x7ffff7e03ed0[m <[33m__GI__IO_puts[m>:	endbr64 
+   [34m0x7ffff7e03ed4[m <[33m__GI__IO_puts[m+4>:	push   %r14
+   [34m0x7ffff7e03ed6[m <[33m__GI__IO_puts[m+6>:	push   %r13
+   [34m0x7ffff7e03ed8[m <[33m__GI__IO_puts[m+8>:	push   %r12
+   [34m0x7ffff7e03eda[m <[33m__GI__IO_puts[m+10>:	mov    %rdi,%r12
+   [34m0x7ffff7e03edd[m <[33m__GI__IO_puts[m+13>:	push   %rbp
+   [34m0x7ffff7e03ede[m <[33m__GI__IO_puts[m+14>:	push   %rbx
+   [34m0x7ffff7e03edf[m <[33m__GI__IO_puts[m+15>:	sub    $0x10,%rsp
+   [34m0x7ffff7e03ee3[m <[33m__GI__IO_puts[m+19>:	call   [34m0x7ffff7dab490[m <[33m*ABS*+0xa8720@plt[m>
+   [34m0x7ffff7e03ee8[m <[33m__GI__IO_puts[m+24>:	mov    0x197f49(%rip),%r13        # [34m0x7ffff7f9be38[m
+[?2004h(gdb) [7mps -aux | grep "gdb hola.dynamic"[27m[C[C[C[C[C[Cps -aux | grep "gdb hola.dynamic"
+[?2004lorden indefinida: «ps». Intente con «help»
+[?2004h(gdb) exit
+[?2004l[?2004hUna sesión de depuración está activa.
+
+	Inferior 1 [process 7523] will be killed.
+
+¿Salir de cualquier modo? (y or n) y
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.dynamic[13@cc -g hola.c -o[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pdb[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7mps -aux | grep "gdb hola.dynamic"[27mps -aux | grep "gdb hola.dynamic"
+[?2004lalumno      7529  0.0  0.2  11844  2052 pts/1    S+   17:20   0:00 grep --color=auto [01;31m[Kgdb hola.dynamic[m[K
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ ps -aux | grep "gdb hola.dynamic"[17Pgdb hola.dynamic
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mhola.dynamic[m...
+[?2004h(gdb) break main
+[?2004lPunto de interrupción 1 at [34m0x1151[m: file [32mhola.c[m, line 4.
+[?2004h(gdb) break puts
+[?2004lPunto de interrupción 2 at [34m0x1050[m
+[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.dynamic[m 
+[Depuración de hilo usando libthread_db enabled]
+Using host libthread_db library "[32m/lib/x86_64-linux-gnu/libthread_db.so.1[m".
+
+Breakpoint 1, [33mmain[m () at [32mhola.c[m:4
+4	    [01mprintf[m[31m([m[31m"Hola, mundo![m[35m\n[m[31m"[m[31m);[m
+[?2004h[?2004l[?2004h(gdb) x/10i main
+[?2004l   [34m0x555555555149[m <[33mmain[m>:	endbr64 
+   [34m0x55555555514d[m <[33mmain[m+4>:	push   %rbp
+   [34m0x55555555514e[m <[33mmain[m+5>:	mov    %rsp,%rbp
+=> [34m0x555555555151[m <[33mmain[m+8>:	lea    0xeac(%rip),%rax        # [34m0x555555556004[m
+   [34m0x555555555158[m <[33mmain[m+15>:	mov    %rax,%rdi
+   [34m0x55555555515b[m <[33mmain[m+18>:	call   [34m0x555555555050[m <[33mputs@plt[m>
+   [34m0x555555555160[m <[33mmain[m+23>:	mov    $0x0,%eax
+   [34m0x555555555165[m <[33mmain[m+28>:	pop    %rbp
+   [34m0x555555555166[m <[33mmain[m+29>:	ret    
+   [34m0x555555555167[m:	add    %dh,%bl
+[?2004h(gdb) x/10i puts
+[?2004l   [34m0x7ffff7e03ed0[m <[33m__GI__IO_puts[m>:	endbr64 
+   [34m0x7ffff7e03ed4[m <[33m__GI__IO_puts[m+4>:	push   %r14
+   [34m0x7ffff7e03ed6[m <[33m__GI__IO_puts[m+6>:	push   %r13
+   [34m0x7ffff7e03ed8[m <[33m__GI__IO_puts[m+8>:	push   %r12
+   [34m0x7ffff7e03eda[m <[33m__GI__IO_puts[m+10>:	mov    %rdi,%r12
+   [34m0x7ffff7e03edd[m <[33m__GI__IO_puts[m+13>:	push   %rbp
+   [34m0x7ffff7e03ede[m <[33m__GI__IO_puts[m+14>:	push   %rbx
+   [34m0x7ffff7e03edf[m <[33m__GI__IO_puts[m+15>:	sub    $0x10,%rsp
+   [34m0x7ffff7e03ee3[m <[33m__GI__IO_puts[m+19>:	call   [34m0x7ffff7dab490[m <[33m*ABS*+0xa8720@plt[m>
+   [34m0x7ffff7e03ee8[m <[33m__GI__IO_puts[m+24>:	mov    0x197f49(%rip),%r13        # [34m0x7ffff7f9be38[m
+[?2004h(gdb) 
+[1]+  Detenido                gdb hola.dynamic
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.dynamicps -aux | grep "gdb hola.dynamic"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kf
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+alumno      1030    1019  0 11:47 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+alumno      7228    2007  0 16:24 pts/0    00:00:00 script -a typescript_prac8_bol1
+alumno      7531    7229  0 17:20 pts/1    00:00:00 gdb hola.dynamic
+alumno      7534    7531  0 17:21 pts/1    00:00:00 /home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.dynamic
+alumno      7538    7229  0 17:22 pts/1    00:00:00 ps -af
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ ps -Af
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 11:46 ?        00:00:02 /sbin/init splash
+root           2       0  0 11:46 ?        00:00:00 [kthreadd]
+root           3       2  0 11:46 ?        00:00:00 [rcu_gp]
+root           4       2  0 11:46 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 11:46 ?        00:00:00 [netns]
+root           7       2  0 11:46 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 11:46 ?        00:00:06 [kworker/0:1H-events_highpri]
+root          10       2  0 11:46 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 11:46 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 11:46 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 11:46 ?        00:00:01 [ksoftirqd/0]
+root          14       2  0 11:46 ?        00:00:07 [rcu_sched]
+root          15       2  0 11:46 ?        00:00:00 [migration/0]
+root          16       2  0 11:46 ?        00:00:00 [idle_inject/0]
+root          18       2  0 11:46 ?        00:00:00 [cpuhp/0]
+root          19       2  0 11:46 ?        00:00:00 [kdevtmpfs]
+root          20       2  0 11:46 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 11:46 ?        00:00:00 [kauditd]
+root          22       2  0 11:46 ?        00:00:00 [khungtaskd]
+root          23       2  0 11:46 ?        00:00:00 [oom_reaper]
+root          24       2  0 11:46 ?        00:00:00 [writeback]
+root          25       2  0 11:46 ?        00:00:01 [kcompactd0]
+root          26       2  0 11:46 ?        00:00:00 [ksmd]
+root          27       2  0 11:46 ?        00:00:00 [khugepaged]
+root          73       2  0 11:46 ?        00:00:00 [kintegrityd]
+root          74       2  0 11:46 ?        00:00:00 [kblockd]
+root          75       2  0 11:46 ?        00:00:00 [blkcg_punt_bio]
+root          76       2  0 11:46 ?        00:00:00 [tpm_dev_wq]
+root          77       2  0 11:46 ?        00:00:00 [ata_sff]
+root          78       2  0 11:46 ?        00:00:00 [md]
+root          79       2  0 11:46 ?        00:00:00 [edac-poller]
+root          80       2  0 11:46 ?        00:00:00 [devfreq_wq]
+root          81       2  0 11:46 ?        00:00:00 [watchdogd]
+root          84       2  0 11:46 ?        00:00:18 [kswapd0]
+root          85       2  0 11:46 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 11:46 ?        00:00:00 [kthrotld]
+root          88       2  0 11:46 ?        00:00:00 [acpi_thermal_pm]
+root          90       2  0 11:46 ?        00:00:00 [scsi_eh_0]
+root          91       2  0 11:46 ?        00:00:00 [scsi_tmf_0]
+root          92       2  0 11:46 ?        00:00:00 [scsi_eh_1]
+root          93       2  0 11:46 ?        00:00:00 [scsi_tmf_1]
+root          95       2  0 11:46 ?        00:00:00 [vfio-irqfd-clea]
+root          97       2  0 11:46 ?        00:00:00 [mld]
+root          98       2  0 11:46 ?        00:00:00 [ipv6_addrconf]
+root         109       2  0 11:46 ?        00:00:00 [kstrp]
+root         112       2  0 11:46 ?        00:00:00 [zswap-shrink]
+root         113       2  0 11:46 ?        00:00:00 [kworker/u3:0]
+root         118       2  0 11:46 ?        00:00:00 [charger_manager]
+root         152       2  0 11:46 ?        00:00:00 [scsi_eh_2]
+root         153       2  0 11:46 ?        00:00:00 [scsi_tmf_2]
+root         179       2  0 11:46 ?        00:00:00 [jbd2/sda3-8]
+root         180       2  0 11:46 ?        00:00:00 [ext4-rsv-conver]
+root         220       1  0 11:46 ?        00:00:01 /lib/systemd/systemd-journald
+root         248       2  0 11:46 ?        00:00:00 [ipmi-msghandler]
+root         275       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-udevd
+root         295       2  0 11:46 ?        00:00:00 [iprt-VBoxWQueue]
+root         323       2  0 11:46 ?        00:00:00 [cryptd]
+root         330       2  0 11:46 ?        00:00:00 [ttm_swap]
+root         332       2  0 11:46 ?        00:00:01 [irq/18-vmwgfx]
+root         333       2  0 11:46 ?        00:00:00 [card0-crtc0]
+root         335       2  0 11:46 ?        00:00:00 [card0-crtc1]
+root         337       2  0 11:46 ?        00:00:00 [card0-crtc2]
+root         338       2  0 11:46 ?        00:00:00 [card0-crtc3]
+root         340       2  0 11:46 ?        00:00:00 [card0-crtc4]
+root         342       2  0 11:46 ?        00:00:00 [card0-crtc5]
+root         345       2  0 11:46 ?        00:00:00 [card0-crtc6]
+root         347       2  0 11:46 ?        00:00:00 [card0-crtc7]
+systemd+     394       1  0 11:46 ?        00:00:29 /lib/systemd/systemd-oomd
+systemd+     395       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     541       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         621       1  0 11:46 ?        00:00:00 /usr/libexec/accounts-daemon
+root         622       1  0 11:46 ?        00:00:00 /usr/sbin/acpid
+avahi        624       1  0 11:46 ?        00:00:00 avahi-daemon: running [alumno-VirtualBox.local]
+root         625       1  0 11:46 ?        00:00:00 /usr/sbin/cron -f -P
+message+     626       1  0 11:46 ?        00:00:03 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         628       1  0 11:46 ?        00:00:01 /usr/sbin/NetworkManager --no-daemon
+root         641       1  0 11:46 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         642       1  0 11:46 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         647       1  0 11:46 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       650       1  0 11:46 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         655       1  0 11:46 ?        00:00:13 /usr/lib/snapd/snapd
+root         656       1  0 11:46 ?        00:00:00 /usr/libexec/switcheroo-control
+root         658       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-logind
+root         659       1  0 11:46 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         669       1  0 11:46 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        697     624  0 11:46 ?        00:00:00 avahi-daemon: chroot helper
+root         714       1  0 11:46 ?        00:00:00 /usr/sbin/ModemManager
+root         717       1  0 11:46 ?        00:00:00 /usr/sbin/cupsd -l
+root         722       1  0 11:46 ?        00:00:01 /usr/bin/python3 /usr/bin/glances -s -B 127.0.0.1
+root         753       1  0 11:46 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+lp           755     717  0 11:46 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         772       1  0 11:46 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops     779       1  0 11:46 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     782       1  0 11:46 ?        00:00:00 /usr/sbin/kerneloops
+root         971       1  0 11:47 ?        00:00:04 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         980       1  0 11:47 ?        00:00:00 /usr/sbin/gdm3
+root         985     980  0 11:47 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+alumno       993       1  0 11:47 ?        00:00:00 /lib/systemd/systemd --user
+alumno       994     993  0 11:47 ?        00:00:00 (sd-pam)
+alumno      1000     993  0 11:47 ?        00:00:00 /usr/bin/pipewire
+alumno      1001     993  0 11:47 ?        00:00:00 /usr/bin/pipewire-media-session
+alumno      1002     993  0 11:47 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+alumno      1007       1  0 11:47 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rtkit       1012       1  0 11:47 ?        00:00:00 /usr/libexec/rtkit-daemon
+alumno      1019     985  0 11:47 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --sess
+alumno      1022     993  0 11:47 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --sysl
+alumno      1030    1019  0 11:47 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+alumno      1031     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd
+alumno      1050     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+alumno      1052     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-document-portal
+alumno      1067     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        1076    1052  0 11:47 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+alumno      1108     993  0 11:47 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+alumno      1119     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+alumno      1134     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+alumno      1153     993  1 11:47 ?        00:05:36 /usr/bin/gnome-shell
+alumno      1154    1134  0 11:47 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+alumno      1163    1154  0 11:47 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print
+alumno      1182     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+alumno      1189     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+alumno      1193     993  0 11:47 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+alumno      1200     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+alumno      1204     993  0 11:47 ?        00:00:00 /usr/libexec/goa-daemon
+alumno      1252     993  0 11:47 ?        00:00:00 /usr/libexec/goa-identity-service
+alumno      1258     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1264       1  0 11:47 ?        00:00:00 /usr/libexec/upowerd
+alumno      1313     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+alumno      1319     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-source-registry
+alumno      1326     993  0 11:47 ?        00:00:00 /usr/libexec/dconf-service
+alumno      1331     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+root        1340       1  0 11:47 ?        00:00:08 /usr/libexec/packagekitd
+alumno      1342     993  0 11:47 ?        00:00:01 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+alumno      1355     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+alumno      1369    1031  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+alumno      1378     993  0 11:47 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+alumno      1380     993  0 11:47 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+alumno      1387     993  0 11:47 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+alumno      1389     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+alumno      1391    1387  0 11:47 ?        00:00:08 /usr/bin/ibus-daemon --panel disable
+alumno      1393     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-color
+alumno      1394     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-datetime
+alumno      1399     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-housekeeping
+alumno      1404     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-keyboard
+alumno      1406     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-media-keys
+alumno      1409     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-power
+alumno      1410     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-print-notifications
+alumno      1413     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-rfkill
+alumno      1414     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+alumno      1418     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-sharing
+alumno      1424     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-smartcard
+alumno      1430     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-sound
+alumno      1432     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-wacom
+alumno      1465    1134  0 11:47 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+alumno      1468    1391  0 11:47 ?        00:00:00 /usr/libexec/ibus-dconf
+alumno      1469    1391  0 11:47 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+alumno      1477     993  0 11:47 ?        00:00:00 /usr/libexec/ibus-portal
+alumno      1482    1134  0 11:47 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+alumno      1511     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-printer
+alumno      1532     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+alumno      1533    1532  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+alumno      1550    1153  0 11:47 ?        00:00:06 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.S
+alumno      1564     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --seamless
+alumno      1565    1564  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --seamless
+alumno      1570     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+alumno      1571    1570  0 11:47 ?        00:01:04 /usr/bin/VBoxClient --draganddrop
+alumno      1574     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+root        1575    1574  0 11:47 ?        00:00:00 
+alumno      1586    1391  0 11:47 ?        00:00:02 /usr/libexec/ibus-engine-simple
+alumno      1624     993  0 11:47 ?        00:00:14 /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+alumno      1654     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-xsettings
+colord      1658       1  0 11:47 ?        00:00:00 /usr/libexec/colord
+alumno      1669     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+alumno      1675     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+alumno      1696     993  0 11:47 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+alumno      1735     993  0 11:47 ?        00:00:00 /usr/libexec/ibus-x11
+alumno      1745    1153  0 11:47 ?        00:00:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/ext
+alumno      1812    1342  0 11:47 ?        00:00:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+alumno      1818     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+alumno      1971     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-metadata
+alumno      1988     993  0 11:47 ?        00:00:39 /usr/libexec/gnome-terminal-server
+alumno      2007    1988  0 11:47 pts/0    00:00:00 bash
+alumno      2454    1134  0 11:48 ?        00:00:01 update-notifier
+alumno      3810     993  0 12:05 ?        00:00:00 /usr/bin/snap userd
+alumno      4414     993  0 12:08 ?        00:00:13 /usr/bin/nautilus --gapplication-service
+alumno      4456     993  0 12:09 ?        00:00:04 /usr/bin/gedit --gapplication-service
+alumno      6197    1153  0 16:07 ?        00:00:34 /snap/firefox/2211/usr/lib/firefox/firefox
+alumno      6315    6197  0 16:08 ?        00:00:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -parentBuildID 20221216042651 -prefsLen 25
+alumno      6352    6197  0 16:08 ?        00:00:01 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 25748 -
+alumno      6513    6197  0 16:08 ?        00:00:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 31232 -
+alumno      6782    6197  0 16:08 ?        00:00:04 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 31232 -
+alumno      6897     993  0 16:09 ?        00:00:01 file-roller /home/alumno/Descargas/Archivo comprimido.zip
+root        7125       2  0 16:14 ?        00:00:00 [kworker/0:0-events]
+root        7227       2  0 16:23 ?        00:00:02 [kworker/0:1-events]
+alumno      7228    2007  0 16:24 pts/0    00:00:00 script -a typescript_prac8_bol1
+alumno      7229    7228  0 16:24 pts/1    00:00:00 bash -i
+root        7282       2  0 16:47 ?        00:00:00 [kworker/u2:3-events_unbound]
+root        7347       2  0 16:57 ?        00:00:00 [kworker/u2:1-events_freezable_power_]
+alumno      7364     993  0 17:00 ?        00:00:01 /usr/libexec/gnome-shell-portal-helper
+alumno      7383    7364  0 17:00 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 1 17
+alumno      7391    7364  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 28 -- /usr/bin/xdg-dbus-proxy --args=25
+alumno      7392    7391  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 28 -- /usr/bin/xdg-dbus-proxy --args=25
+alumno      7393    7392  0 17:01 ?        00:00:00 /usr/bin/xdg-dbus-proxy --args=25
+alumno      7395    7364  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 25 -- /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+alumno      7396    7395  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 25 -- /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+alumno      7397    7396  0 17:01 ?        00:00:01 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+root        7421       2  0 17:01 ?        00:00:00 [kworker/u2:4-events_unbound]
+root        7504       2  0 17:17 ?        00:00:00 [kworker/u2:0-events_unbound]
+alumno      7531    7229  0 17:20 pts/1    00:00:00 gdb hola.dynamic
+alumno      7534    7531  0 17:21 pts/1    00:00:00 /home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.dynamic
+alumno      7539    7229  0 17:22 pts/1    00:00:00 ps -Af
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ pmap 75[K531
+[?2004l7531:   gdb hola.dynamic
+000055fcd2906000    828K r---- gdb
+000055fcd29d5000   6016K r-x-- gdb
+000055fcd2fb5000   2292K r---- gdb
+000055fcd31f3000    844K r---- gdb
+000055fcd32c6000     60K rw--- gdb
+000055fcd32d5000    120K rw---   [ anon ]
+000055fcd501d000  14820K rw---   [ anon ]
+00007fb8ec000000    132K rw---   [ anon ]
+00007fb8ec021000  65404K -----   [ anon ]
+00007fb8f2310000   5972K rw---   [ anon ]
+00007fb8f2b43000    612K rw---   [ anon ]
+00007fb8f2be0000   1608K rw---   [ anon ]
+00007fb8f2db2000      8K r---- libthread_db.so.1
+00007fb8f2db4000     20K r-x-- libthread_db.so.1
+00007fb8f2db9000      8K r---- libthread_db.so.1
+00007fb8f2dbb000      4K r---- libthread_db.so.1
+00007fb8f2dbc000      4K rw--- libthread_db.so.1
+00007fb8f2dcd000   2196K rw---   [ anon ]
+00007fb8f2ff2000    136K r---- libc.mo
+00007fb8f3014000   2440K rw---   [ anon ]
+00007fb8f3276000      4K -----   [ anon ]
+00007fb8f3277000   8192K rw---   [ anon ]
+00007fb8f3a77000    264K r---- gdb.mo
+00007fb8f3ab9000   8196K r---- locale-archive
+00007fb8f42ba000     44K rw---   [ anon ]
+00007fb8f42c5000     12K r---- libresolv.so.2
+00007fb8f42c8000     40K r-x-- libresolv.so.2
+00007fb8f42d2000     12K r---- libresolv.so.2
+00007fb8f42d5000      4K r---- libresolv.so.2
+00007fb8f42d6000      4K rw--- libresolv.so.2
+00007fb8f42d7000      8K rw---   [ anon ]
+00007fb8f42d9000      8K r---- libkeyutils.so.1.9
+00007fb8f42db000      8K r-x-- libkeyutils.so.1.9
+00007fb8f42dd000      4K r---- libkeyutils.so.1.9
+00007fb8f42de000      4K r---- libkeyutils.so.1.9
+00007fb8f42df000      4K rw--- libkeyutils.so.1.9
+00007fb8f42e0000      8K r---- libffi.so.8.1.0
+00007fb8f42e2000     28K r-x-- libffi.so.8.1.0
+00007fb8f42e9000      4K r---- libffi.so.8.1.0
+00007fb8f42ea000      4K ----- libffi.so.8.1.0
+00007fb8f42eb000      4K r---- libffi.so.8.1.0
+00007fb8f42ec000      4K rw--- libffi.so.8.1.0
+00007fb8f42ed000      8K rw---   [ anon ]
+00007fb8f42ef000      4K r---- libbrotlicommon.so.1.0.9
+00007fb8f42f0000      4K r-x-- libbrotlicommon.so.1.0.9
+00007fb8f42f1000    124K r---- libbrotlicommon.so.1.0.9
+00007fb8f4310000      4K r---- libbrotlicommon.so.1.0.9
+00007fb8f4311000      4K rw--- libbrotlicommon.so.1.0.9
+00007fb8f4312000     12K r---- libsasl2.so.2.0.25
+00007fb8f4315000     68K r-x-- libsasl2.so.2.0.25
+00007fb8f4326000     20K r---- libsasl2.so.2.0.25
+00007fb8f432b000      4K r---- libsasl2.so.2.0.25
+00007fb8f432c000      4K rw--- libsasl2.so.2.0.25
+00007fb8f432d000     12K r---- libkrb5support.so.0.1
+00007fb8f4330000     24K r-x-- libkrb5support.so.0.1
+00007fb8f4336000      8K r---- libkrb5support.so.0.1
+00007fb8f4338000      4K ----- libkrb5support.so.0.1
+00007fb8f4339000      4K r---- libkrb5support.so.0.1
+00007fb8f433a000      4K rw--- libkrb5support.so.0.1
+00007fb8f433b000      8K r---- libcom_err.so.2.1
+00007fb8f433d000      4K r-x-- libcom_err.so.2.1
+00007fb8f433e000      4K r---- libcom_err.so.2.1
+00007fb8f433f000      4K r---- libcom_err.so.2.1
+00007fb8f4340000      4K rw--- libcom_err.so.2.1
+00007fb8f4341000     16K r---- libk5crypto.so.3.1
+00007fb8f4345000    108K r-x-- libk5crypto.so.3.1
+00007fb8f4360000     48K r---- libk5crypto.so.3.1
+00007fb8f436c000      4K ----- libk5crypto.so.3.1
+00007fb8f436d000      4K r---- libk5crypto.so.3.1
+00007fb8f436e000      4K rw--- libk5crypto.so.3.1
+00007fb8f436f000      4K rw---   [ anon ]
+00007fb8f4370000    132K r---- libkrb5.so.3.3
+00007fb8f4391000    372K r-x-- libkrb5.so.3.3
+00007fb8f43ee000    244K r---- libkrb5.so.3.3
+00007fb8f442b000      4K ----- libkrb5.so.3.3
+00007fb8f442c000     52K r---- libkrb5.so.3.3
+00007fb8f4439000      8K rw--- libkrb5.so.3.3
+00007fb8f443b000      8K rw---   [ anon ]
+00007fb8f443d000     12K r---- libtasn1.so.6.6.2
+00007fb8f4440000     56K r-x-- libtasn1.so.6.6.2
+00007fb8f444e000     16K r---- libtasn1.so.6.6.2
+00007fb8f4452000      4K ----- libtasn1.so.6.6.2
+00007fb8f4453000      4K r---- libtasn1.so.6.6.2
+00007fb8f4454000      4K rw--- libtasn1.so.6.6.2
+00007fb8f4455000    164K r---- libp11-kit.so.0.3.0
+00007fb8f447e000    656K r-x-- libp11-kit.so.0.3.0
+00007fb8f4522000    360K r---- libp11-kit.so.0.3.0
+00007fb8f457c000     40K r---- libp11-kit.so.0.3.0
+00007fb8f4586000     40K rw--- libp11-kit.so.0.3.0
+00007fb8f4590000    712K r---- libcrypto.so.3
+00007fb8f4642000   2420K r-x-- libcrypto.so.3
+00007fb8f489f000    840K r---- libcrypto.so.3
+00007fb8f4971000    364K r---- libcrypto.so.3
+00007fb8f49cc000     12K rw--- libcrypto.so.3
+00007fb8f49cf000     12K rw---   [ anon ]
+00007fb8f49d2000     32K r---- libhogweed.so.6.4
+00007fb8f49da000     76K r-x-- libhogweed.so.6.4
+00007fb8f49ed000    168K r---- libhogweed.so.6.4
+00007fb8f4a17000      4K ----- libhogweed.so.6.4
+00007fb8f4a18000      4K r---- libhogweed.so.6.4
+00007fb8f4a19000      4K rw--- libhogweed.so.6.4
+00007fb8f4a1a000     68K r---- libunistring.so.2.2.0
+00007fb8f4a2b000    216K r-x-- libunistring.so.2.2.0
+00007fb8f4a61000   1400K r---- libunistring.so.2.2.0
+00007fb8f4bbf000     16K r---- libunistring.so.2.2.0
+00007fb8f4bc3000      4K rw--- libunistring.so.2.2.0
+00007fb8f4bc4000      4K r---- libicudata.so.70.1
+00007fb8f4bc5000      4K r-x-- libicudata.so.70.1
+00007fb8f4bc6000  28776K r---- libicudata.so.70.1
+00007fb8f67e0000      4K r---- libicudata.so.70.1
+00007fb8f67e1000      4K rw--- libicudata.so.70.1
+00007fb8f67e2000      8K rw---   [ anon ]
+00007fb8f67e4000      4K r---- libbrotlidec.so.1.0.9
+00007fb8f67e5000     32K r-x-- libbrotlidec.so.1.0.9
+00007fb8f67ed000     12K r---- libbrotlidec.so.1.0.9
+00007fb8f67f0000      4K r---- libbrotlidec.so.1.0.9
+00007fb8f67f1000      4K rw--- libbrotlidec.so.1.0.9
+00007fb8f67f2000     40K r---- libzstd.so.1.4.8
+00007fb8f67fc000    712K r-x-- libzstd.so.1.4.8
+00007fb8f68ae000     68K r---- libzstd.so.1.4.8
+00007fb8f68bf000      4K r---- libzstd.so.1.4.8
+00007fb8f68c0000      4K rw--- libzstd.so.1.4.8
+00007fb8f68c1000     12K r---- liblber-2.5.so.0.1.7
+00007fb8f68c4000     32K r-x-- liblber-2.5.so.0.1.7
+00007fb8f68cc000     12K r---- liblber-2.5.so.0.1.7
+00007fb8f68cf000      4K ----- liblber-2.5.so.0.1.7
+00007fb8f68d0000      4K r---- liblber-2.5.so.0.1.7
+00007fb8f68d1000      4K rw--- liblber-2.5.so.0.1.7
+00007fb8f68d2000     56K r---- libldap-2.5.so.0.1.7
+00007fb8f68e0000    232K r-x-- libldap-2.5.so.0.1.7
+00007fb8f691a000     68K r---- libldap-2.5.so.0.1.7
+00007fb8f692b000      4K ----- libldap-2.5.so.0.1.7
+00007fb8f692c000      8K r---- libldap-2.5.so.0.1.7
+00007fb8f692e000      4K rw--- libldap-2.5.so.0.1.7
+00007fb8f692f000      8K rw---   [ anon ]
+00007fb8f6931000     44K r---- libgssapi_krb5.so.2.2
+00007fb8f693c000    224K r-x-- libgssapi_krb5.so.2.2
+00007fb8f6974000     48K r---- libgssapi_krb5.so.2.2
+00007fb8f6980000      4K ----- libgssapi_krb5.so.2.2
+00007fb8f6981000      8K r---- libgssapi_krb5.so.2.2
+00007fb8f6983000      8K rw--- libgssapi_krb5.so.2.2
+00007fb8f6985000      8K rw---   [ anon ]
+00007fb8f6987000    196K r---- libgnutls.so.30.31.0
+00007fb8f69b8000   1188K r-x-- libgnutls.so.30.31.0
+00007fb8f6ae1000    500K r---- libgnutls.so.30.31.0
+00007fb8f6b5e000     64K r---- libgnutls.so.30.31.0
+00007fb8f6b6e000      8K rw--- libgnutls.so.30.31.0
+00007fb8f6b70000      8K rw---   [ anon ]
+00007fb8f6b72000     40K r---- libnettle.so.8.4
+00007fb8f6b7c000    140K r-x-- libnettle.so.8.4
+00007fb8f6b9f000     88K r---- libnettle.so.8.4
+00007fb8f6bb5000      8K r---- libnettle.so.8.4
+00007fb8f6bb7000      4K rw--- libnettle.so.8.4
+00007fb8f6bb8000      8K r---- libpsl.so.5.3.2
+00007fb8f6bba000      8K r-x-- libpsl.so.5.3.2
+00007fb8f6bbc000     56K r---- libpsl.so.5.3.2
+00007fb8f6bca000      4K r---- libpsl.so.5.3.2
+00007fb8f6bcb000      4K rw--- libpsl.so.5.3.2
+00007fb8f6bcc000     52K r---- libssh.so.4.8.7
+00007fb8f6bd9000    268K r-x-- libssh.so.4.8.7
+00007fb8f6c1c000     96K r---- libssh.so.4.8.7
+00007fb8f6c34000      4K ----- libssh.so.4.8.7
+00007fb8f6c35000      8K r---- libssh.so.4.8.7
+00007fb8f6c37000      8K rw--- libssh.so.4.8.7
+00007fb8f6c39000     20K r---- librtmp.so.1
+00007fb8f6c3e000     64K r-x-- librtmp.so.1
+00007fb8f6c4e000     28K r---- librtmp.so.1
+00007fb8f6c55000      4K ----- librtmp.so.1
+00007fb8f6c56000      4K r---- librtmp.so.1
+00007fb8f6c57000      4K rw--- librtmp.so.1
+00007fb8f6c58000      8K r---- libidn2.so.0.3.7
+00007fb8f6c5a000     16K r-x-- libidn2.so.0.3.7
+00007fb8f6c5e000    100K r---- libidn2.so.0.3.7
+00007fb8f6c77000      4K r---- libidn2.so.0.3.7
+00007fb8f6c78000      4K rw--- libidn2.so.0.3.7
+00007fb8f6c79000      8K rw---   [ anon ]
+00007fb8f6c7b000     20K r---- libnghttp2.so.14.20.1
+00007fb8f6c80000     84K r-x-- libnghttp2.so.14.20.1
+00007fb8f6c95000     48K r---- libnghttp2.so.14.20.1
+00007fb8f6ca1000     12K r---- libnghttp2.so.14.20.1
+00007fb8f6ca4000      4K rw--- libnghttp2.so.14.20.1
+00007fb8f6ca5000    408K r---- libicuuc.so.70.1
+00007fb8f6d0b000    972K r-x-- libicuuc.so.70.1
+00007fb8f6dfe000    560K r---- libicuuc.so.70.1
+00007fb8f6e8a000     76K r---- libicuuc.so.70.1
+00007fb8f6e9d000      4K rw--- libicuuc.so.70.1
+00007fb8f6e9e000      8K rw---   [ anon ]
+00007fb8f6ea0000    924K r---- libicui18n.so.70.1
+00007fb8f6f87000   1676K r-x-- libicui18n.so.70.1
+00007fb8f712a000    584K r---- libicui18n.so.70.1
+00007fb8f71bc000     68K r---- libicui18n.so.70.1
+00007fb8f71cd000      4K rw--- libicui18n.so.70.1
+00007fb8f71ce000      4K rw---   [ anon ]
+00007fb8f71cf000      8K r---- libpcre.so.3.13.3
+00007fb8f71d1000    340K r-x-- libpcre.so.3.13.3
+00007fb8f7226000    116K r---- libpcre.so.3.13.3
+00007fb8f7243000      4K r---- libpcre.so.3.13.3
+00007fb8f7244000      4K rw--- libpcre.so.3.13.3
+00007fb8f7245000     56K r---- libcurl-gnutls.so.4.7.0
+00007fb8f7253000    452K r-x-- libcurl-gnutls.so.4.7.0
+00007fb8f72c4000    108K r---- libcurl-gnutls.so.4.7.0
+00007fb8f72df000     16K r---- libcurl-gnutls.so.4.7.0
+00007fb8f72e3000      8K rw--- libcurl-gnutls.so.4.7.0
+00007fb8f72e5000     12K rw---   [ anon ]
+00007fb8f72e8000     72K r---- libboost_regex.so.1.74.0
+00007fb8f72fa000    748K r-x-- libboost_regex.so.1.74.0
+00007fb8f73b5000    128K r---- libboost_regex.so.1.74.0
+00007fb8f73d5000     20K r---- libboost_regex.so.1.74.0
+00007fb8f73da000      4K rw--- libboost_regex.so.1.74.0
+00007fb8f73db000      8K r---- libuuid.so.1.3.0
+00007fb8f73dd000     16K r-x-- libuuid.so.1.3.0
+00007fb8f73e1000      4K r---- libuuid.so.1.3.0
+00007fb8f73e2000      4K r---- libuuid.so.1.3.0
+00007fb8f73e3000      4K rw--- libuuid.so.1.3.0
+00007fb8f73e4000     12K r---- libelf-0.186.so
+00007fb8f73e7000     80K r-x-- libelf-0.186.so
+00007fb8f73fb000     16K r---- libelf-0.186.so
+00007fb8f73ff000      4K ----- libelf-0.186.so
+00007fb8f7400000      4K r---- libelf-0.186.so
+00007fb8f7401000      4K rw--- libelf-0.186.so
+00007fb8f7402000    116K r---- libglib-2.0.so.0.7200.1
+00007fb8f741f000    572K r-x-- libglib-2.0.so.0.7200.1
+00007fb8f74ae000    552K r---- libglib-2.0.so.0.7200.1
+00007fb8f7538000      4K ----- libglib-2.0.so.0.7200.1
+00007fb8f7539000      4K r---- libglib-2.0.so.0.7200.1
+00007fb8f753a000      4K rw--- libglib-2.0.so.0.7200.1
+00007fb8f753b000      4K rw---   [ anon ]
+00007fb8f753c000    160K r---- libc.so.6
+00007fb8f7564000   1620K r-x-- libc.so.6
+00007fb8f76f9000    352K r---- libc.so.6
+00007fb8f7751000     16K r---- libc.so.6
+00007fb8f7755000      8K rw--- libc.so.6
+00007fb8f7757000     60K rw---   [ anon ]
+00007fb8f7766000     12K r---- libgcc_s.so.1
+00007fb8f7769000     92K r-x-- libgcc_s.so.1
+00007fb8f7780000     16K r---- libgcc_s.so.1
+00007fb8f7784000      4K r---- libgcc_s.so.1
+00007fb8f7785000      4K rw--- libgcc_s.so.1
+00007fb8f7786000    616K r---- libstdc++.so.6.0.30
+00007fb8f7820000   1088K r-x-- libstdc++.so.6.0.30
+00007fb8f7930000    444K r---- libstdc++.so.6.0.30
+00007fb8f799f000     44K r---- libstdc++.so.6.0.30
+00007fb8f79aa000     12K rw--- libstdc++.so.6.0.30
+00007fb8f79ad000     12K rw---   [ anon ]
+00007fb8f79b0000      8K r---- libdebuginfod-0.186.so
+00007fb8f79b2000     16K r-x-- libdebuginfod-0.186.so
+00007fb8f79b6000      4K r---- libdebuginfod-0.186.so
+00007fb8f79b7000      4K r---- libdebuginfod-0.186.so
+00007fb8f79b8000      4K rw--- libdebuginfod-0.186.so
+00007fb8f79b9000      8K r---- libxxhash.so.0.8.1
+00007fb8f79bb000     60K r-x-- libxxhash.so.0.8.1
+00007fb8f79ca000      8K r---- libxxhash.so.0.8.1
+00007fb8f79cc000      4K r---- libxxhash.so.0.8.1
+00007fb8f79cd000      4K rw--- libxxhash.so.0.8.1
+00007fb8f79ce000    124K r---- libsource-highlight.so.4.0.1
+00007fb8f79ed000    336K r-x-- libsource-highlight.so.4.0.1
+00007fb8f7a41000    120K r---- libsource-highlight.so.4.0.1
+00007fb8f7a5f000      4K ----- libsource-highlight.so.4.0.1
+00007fb8f7a60000      8K r---- libsource-highlight.so.4.0.1
+00007fb8f7a62000      4K rw--- libsource-highlight.so.4.0.1
+00007fb8f7a63000      4K rw---   [ anon ]
+00007fb8f7a64000     40K r---- libgmp.so.10.4.1
+00007fb8f7a6e000    380K r-x-- libgmp.so.10.4.1
+00007fb8f7acd000     92K r---- libgmp.so.10.4.1
+00007fb8f7ae4000      4K r---- libgmp.so.10.4.1
+00007fb8f7ae5000      4K rw--- libgmp.so.10.4.1
+00007fb8f7ae6000      8K rw---   [ anon ]
+00007fb8f7ae8000     48K r---- libmpfr.so.6.1.0
+00007fb8f7af4000    580K r-x-- libmpfr.so.6.1.0
+00007fb8f7b85000   2072K r---- libmpfr.so.6.1.0
+00007fb8f7d8b000      8K r---- libmpfr.so.6.1.0
+00007fb8f7d8d000     40K rw--- libmpfr.so.6.1.0
+00007fb8f7d97000     16K r---- libipt.so.2.0.5
+00007fb8f7d9b000     68K r-x-- libipt.so.2.0.5
+00007fb8f7dac000     16K r---- libipt.so.2.0.5
+00007fb8f7db0000      4K r---- libipt.so.2.0.5
+00007fb8f7db1000      4K rw--- libipt.so.2.0.5
+00007fb8f7db2000     32K r---- libbabeltrace-ctf.so.1.0.0
+00007fb8f7dba000    172K r-x-- libbabeltrace-ctf.so.1.0.0
+00007fb8f7de5000     76K r---- libbabeltrace-ctf.so.1.0.0
+00007fb8f7df8000      8K r---- libbabeltrace-ctf.so.1.0.0
+00007fb8f7dfa000      4K rw--- libbabeltrace-ctf.so.1.0.0
+00007fb8f7dfb000     12K r---- libbabeltrace.so.1.0.0
+00007fb8f7dfe000     28K r-x-- libbabeltrace.so.1.0.0
+00007fb8f7e05000     12K r---- libbabeltrace.so.1.0.0
+00007fb8f7e08000      4K r---- libbabeltrace.so.1.0.0
+00007fb8f7e09000      4K rw--- libbabeltrace.so.1.0.0
+00007fb8f7e0a000     12K r---- liblzma.so.5.2.5
+00007fb8f7e0d000    108K r-x-- liblzma.so.5.2.5
+00007fb8f7e28000     44K r---- liblzma.so.5.2.5
+00007fb8f7e33000      4K r---- liblzma.so.5.2.5
+00007fb8f7e34000      4K rw--- liblzma.so.5.2.5
+00007fb8f7e35000     16K r---- libexpat.so.1.8.7
+00007fb8f7e39000    124K r-x-- libexpat.so.1.8.7
+00007fb8f7e58000     40K r---- libexpat.so.1.8.7
+00007fb8f7e62000      4K ----- libexpat.so.1.8.7
+00007fb8f7e63000      8K r---- libexpat.so.1.8.7
+00007fb8f7e65000      4K rw--- libexpat.so.1.8.7
+00007fb8f7e66000      8K rw---   [ anon ]
+00007fb8f7e68000     56K r---- libm.so.6
+00007fb8f7e76000    496K r-x-- libm.so.6
+00007fb8f7ef2000    364K r---- libm.so.6
+00007fb8f7f4d000      4K r---- libm.so.6
+00007fb8f7f4e000      4K rw--- libm.so.6
+00007fb8f7f4f000    436K r---- libpython3.10.so.1.0
+00007fb8f7fbc000   2780K r-x-- libpython3.10.so.1.0
+00007fb8f8273000   2212K r---- libpython3.10.so.1.0
+00007fb8f849c000      4K ----- libpython3.10.so.1.0
+00007fb8f849d000     24K r---- libpython3.10.so.1.0
+00007fb8f84a3000    256K rw--- libpython3.10.so.1.0
+00007fb8f84e3000    280K rw---   [ anon ]
+00007fb8f8529000     56K r---- libtinfo.so.6.3
+00007fb8f8537000     68K r-x-- libtinfo.so.6.3
+00007fb8f8548000     56K r---- libtinfo.so.6.3
+00007fb8f8556000     16K r---- libtinfo.so.6.3
+00007fb8f855a000      4K rw--- libtinfo.so.6.3
+00007fb8f855b000     32K r---- libncursesw.so.6.3
+00007fb8f8563000    164K r-x-- libncursesw.so.6.3
+00007fb8f858c000     32K r---- libncursesw.so.6.3
+00007fb8f8594000      4K ----- libncursesw.so.6.3
+00007fb8f8595000      4K r---- libncursesw.so.6.3
+00007fb8f8596000      4K rw--- libncursesw.so.6.3
+00007fb8f8597000      8K r---- libz.so.1.2.11
+00007fb8f8599000     68K r-x-- libz.so.1.2.11
+00007fb8f85aa000     24K r---- libz.so.1.2.11
+00007fb8f85b0000      4K ----- libz.so.1.2.11
+00007fb8f85b1000      4K r---- libz.so.1.2.11
+00007fb8f85b2000      4K rw--- libz.so.1.2.11
+00007fb8f85b3000     80K r---- libreadline.so.8.1
+00007fb8f85c7000    176K r-x-- libreadline.so.8.1
+00007fb8f85f3000     40K r---- libreadline.so.8.1
+00007fb8f85fd000      4K ----- libreadline.so.8.1
+00007fb8f85fe000      8K r---- libreadline.so.8.1
+00007fb8f8600000     24K rw--- libreadline.so.8.1
+00007fb8f8606000      4K rw---   [ anon ]
+00007fb8f8610000     28K r--s- gconv-modules.cache
+00007fb8f8617000      8K rw---   [ anon ]
+00007fb8f8619000      8K r---- ld-linux-x86-64.so.2
+00007fb8f861b000    168K r-x-- ld-linux-x86-64.so.2
+00007fb8f8645000     44K r---- ld-linux-x86-64.so.2
+00007fb8f8650000      4K rw---   [ anon ]
+00007fb8f8651000      8K r---- ld-linux-x86-64.so.2
+00007fb8f8653000      8K rw--- ld-linux-x86-64.so.2
+00007ffd5202b000    132K rw---   [ pila ]
+00007ffd5217f000     16K r----   [ anon ]
+00007ffd52183000      8K r-x--   [ anon ]
+ffffffffff600000      4K --x--   [ anon ]
+ total           189532K
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ pmap 7534
+[?2004l7534:   /home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.dynamic
+0000555555554000      4K r---- hola.dynamic
+0000555555555000      4K r-x-- hola.dynamic
+0000555555556000      4K r---- hola.dynamic
+0000555555557000      4K r---- hola.dynamic
+0000555555558000      4K rw--- hola.dynamic
+00007ffff7d80000     12K rw---   [ anon ]
+00007ffff7d83000    160K r---- libc.so.6
+00007ffff7dab000   1620K r-x-- libc.so.6
+00007ffff7f40000    352K r---- libc.so.6
+00007ffff7f98000     16K r---- libc.so.6
+00007ffff7f9c000      8K rw--- libc.so.6
+00007ffff7f9e000     52K rw---   [ anon ]
+00007ffff7fbb000      8K rw---   [ anon ]
+00007ffff7fbd000     16K r----   [ anon ]
+00007ffff7fc1000      8K r-x--   [ anon ]
+00007ffff7fc3000      8K r---- ld-linux-x86-64.so.2
+00007ffff7fc5000    168K r-x-- ld-linux-x86-64.so.2
+00007ffff7fef000     44K r---- ld-linux-x86-64.so.2
+00007ffff7ffb000      8K r---- ld-linux-x86-64.so.2
+00007ffff7ffd000      8K rw--- ld-linux-x86-64.so.2
+00007ffffffde000    132K rw---   [ pila ]
+ffffffffff600000      4K --x--   [ anon ]
+ total             2644K
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ #[7m00007ffffffde000[27m00007ffffffde000
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ #lo de antes [K[K[K[K[K[K[K[Ke arriba es falso
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ # las 5 primeras regiones de memoria[Ka son de main y las t[Krestantes menos  la u[Kúltima son de push[K[Kts
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ fg
+[?2004lgdb hola.dynamic
+
+
+[?2004l   [34m0x7ffff7e03eef[m <[33m__GI__IO_puts[m+31>:	mov    %rax,%rbx
+   [34m0x7ffff7e03ef2[m <[33m__GI__IO_puts[m+34>:	mov    0x0(%r13),%rbp
+   [34m0x7ffff7e03ef6[m <[33m__GI__IO_puts[m+38>:	mov    0x0(%rbp),%eax
+   [34m0x7ffff7e03ef9[m <[33m__GI__IO_puts[m+41>:	and    $0x8000,%eax
+   [34m0x7ffff7e03efe[m <[33m__GI__IO_puts[m+46>:	jne    [34m0x7ffff7e03f58[m <[33m__GI__IO_puts[m+136>
+   [34m0x7ffff7e03f00[m <[33m__GI__IO_puts[m+48>:	mov    %fs:0x10,%r14
+   [34m0x7ffff7e03f09[m <[33m__GI__IO_puts[m+57>:	mov    0x88(%rbp),%r8
+   [34m0x7ffff7e03f10[m <[33m__GI__IO_puts[m+64>:	cmp    %r14,0x8(%r8)
+   [34m0x7ffff7e03f14[m <[33m__GI__IO_puts[m+68>:	je     [34m0x7ffff7e04008[m <[33m__GI__IO_puts[m+312>
+   [34m0x7ffff7e03f1a[m <[33m__GI__IO_puts[m+74>:	mov    $0x1,%edx
+[?2004h(gdb) quit
+[?2004l[?2004hUna sesión de depuración está activa.
+
+	Inferior 1 [process 7534] will be killed.
+
+¿Salir de cualquier modo? (y or n) y
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ gdb hola.static
+[?2004l[35;1mGNU gdb (Ubuntu 12.0.90-0ubuntu1) 12.0.90[m
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mhola.static[m...
+(No debugging symbols found in [32mhola.static[m)
+[?2004h(gdb) break puts
+[?2004lPunto de interrupción 1 at [34m0x40c140[m
+[?2004h(gdb) run
+[?2004lStarting program: [32m/home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.static[m 
+
+Breakpoint 1, [34m0x000000000040c140[m in [33mputs[m ()
+[?2004h[?2004l[?2004h(gdb) x [K/10i puts
+[?2004l=> [34m0x40c140[m <[33mputs[m>:	endbr64 
+   [34m0x40c144[m <[33mputs[m+4>:	push   %r13
+   [34m0x40c146[m <[33mputs[m+6>:	push   %r12
+   [34m0x40c148[m <[33mputs[m+8>:	mov    %rdi,%r12
+   [34m0x40c14b[m <[33mputs[m+11>:	push   %rbp
+   [34m0x40c14c[m <[33mputs[m+12>:	push   %rbx
+   [34m0x40c14d[m <[33mputs[m+13>:	sub    $0x18,%rsp
+   [34m0x40c151[m <[33mputs[m+17>:	call   [34m0x401180[m
+   [34m0x40c156[m <[33mputs[m+22>:	mov    0xb9593(%rip),%rbp        # [34m0x4c56f0[m <[33mstdout[m>
+   [34m0x40c15d[m <[33mputs[m+29>:	mov    %rax,%rbx
+[?2004h(gdb) 
+[1]+  Detenido                gdb hola.static
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ ps [K[K[Kpg[K[Kps -AF[Kf
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 11:46 ?        00:00:02 /sbin/init splash
+root           2       0  0 11:46 ?        00:00:00 [kthreadd]
+root           3       2  0 11:46 ?        00:00:00 [rcu_gp]
+root           4       2  0 11:46 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 11:46 ?        00:00:00 [netns]
+root           7       2  0 11:46 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 11:46 ?        00:00:06 [kworker/0:1H-kblockd]
+root          10       2  0 11:46 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 11:46 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 11:46 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 11:46 ?        00:00:01 [ksoftirqd/0]
+root          14       2  0 11:46 ?        00:00:07 [rcu_sched]
+root          15       2  0 11:46 ?        00:00:00 [migration/0]
+root          16       2  0 11:46 ?        00:00:00 [idle_inject/0]
+root          18       2  0 11:46 ?        00:00:00 [cpuhp/0]
+root          19       2  0 11:46 ?        00:00:00 [kdevtmpfs]
+root          20       2  0 11:46 ?        00:00:00 [inet_frag_wq]
+root          21       2  0 11:46 ?        00:00:00 [kauditd]
+root          22       2  0 11:46 ?        00:00:00 [khungtaskd]
+root          23       2  0 11:46 ?        00:00:00 [oom_reaper]
+root          24       2  0 11:46 ?        00:00:00 [writeback]
+root          25       2  0 11:46 ?        00:00:01 [kcompactd0]
+root          26       2  0 11:46 ?        00:00:00 [ksmd]
+root          27       2  0 11:46 ?        00:00:00 [khugepaged]
+root          73       2  0 11:46 ?        00:00:00 [kintegrityd]
+root          74       2  0 11:46 ?        00:00:00 [kblockd]
+root          75       2  0 11:46 ?        00:00:00 [blkcg_punt_bio]
+root          76       2  0 11:46 ?        00:00:00 [tpm_dev_wq]
+root          77       2  0 11:46 ?        00:00:00 [ata_sff]
+root          78       2  0 11:46 ?        00:00:00 [md]
+root          79       2  0 11:46 ?        00:00:00 [edac-poller]
+root          80       2  0 11:46 ?        00:00:00 [devfreq_wq]
+root          81       2  0 11:46 ?        00:00:00 [watchdogd]
+root          84       2  0 11:46 ?        00:00:18 [kswapd0]
+root          85       2  0 11:46 ?        00:00:00 [ecryptfs-kthrea]
+root          87       2  0 11:46 ?        00:00:00 [kthrotld]
+root          88       2  0 11:46 ?        00:00:00 [acpi_thermal_pm]
+root          90       2  0 11:46 ?        00:00:00 [scsi_eh_0]
+root          91       2  0 11:46 ?        00:00:00 [scsi_tmf_0]
+root          92       2  0 11:46 ?        00:00:00 [scsi_eh_1]
+root          93       2  0 11:46 ?        00:00:00 [scsi_tmf_1]
+root          95       2  0 11:46 ?        00:00:00 [vfio-irqfd-clea]
+root          97       2  0 11:46 ?        00:00:00 [mld]
+root          98       2  0 11:46 ?        00:00:00 [ipv6_addrconf]
+root         109       2  0 11:46 ?        00:00:00 [kstrp]
+root         112       2  0 11:46 ?        00:00:00 [zswap-shrink]
+root         113       2  0 11:46 ?        00:00:00 [kworker/u3:0]
+root         118       2  0 11:46 ?        00:00:00 [charger_manager]
+root         152       2  0 11:46 ?        00:00:00 [scsi_eh_2]
+root         153       2  0 11:46 ?        00:00:00 [scsi_tmf_2]
+root         179       2  0 11:46 ?        00:00:00 [jbd2/sda3-8]
+root         180       2  0 11:46 ?        00:00:00 [ext4-rsv-conver]
+root         220       1  0 11:46 ?        00:00:01 /lib/systemd/systemd-journald
+root         248       2  0 11:46 ?        00:00:00 [ipmi-msghandler]
+root         275       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-udevd
+root         295       2  0 11:46 ?        00:00:00 [iprt-VBoxWQueue]
+root         323       2  0 11:46 ?        00:00:00 [cryptd]
+root         330       2  0 11:46 ?        00:00:00 [ttm_swap]
+root         332       2  0 11:46 ?        00:00:01 [irq/18-vmwgfx]
+root         333       2  0 11:46 ?        00:00:00 [card0-crtc0]
+root         335       2  0 11:46 ?        00:00:00 [card0-crtc1]
+root         337       2  0 11:46 ?        00:00:00 [card0-crtc2]
+root         338       2  0 11:46 ?        00:00:00 [card0-crtc3]
+root         340       2  0 11:46 ?        00:00:00 [card0-crtc4]
+root         342       2  0 11:46 ?        00:00:00 [card0-crtc5]
+root         345       2  0 11:46 ?        00:00:00 [card0-crtc6]
+root         347       2  0 11:46 ?        00:00:00 [card0-crtc7]
+systemd+     394       1  0 11:46 ?        00:00:29 /lib/systemd/systemd-oomd
+systemd+     395       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     541       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         621       1  0 11:46 ?        00:00:00 /usr/libexec/accounts-daemon
+root         622       1  0 11:46 ?        00:00:00 /usr/sbin/acpid
+avahi        624       1  0 11:46 ?        00:00:00 avahi-daemon: running [alumno-VirtualBox.local]
+root         625       1  0 11:46 ?        00:00:00 /usr/sbin/cron -f -P
+message+     626       1  0 11:46 ?        00:00:03 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         628       1  0 11:46 ?        00:00:01 /usr/sbin/NetworkManager --no-daemon
+root         641       1  0 11:46 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         642       1  0 11:46 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         647       1  0 11:46 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       650       1  0 11:46 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         655       1  0 11:46 ?        00:00:13 /usr/lib/snapd/snapd
+root         656       1  0 11:46 ?        00:00:00 /usr/libexec/switcheroo-control
+root         658       1  0 11:46 ?        00:00:00 /lib/systemd/systemd-logind
+root         659       1  0 11:46 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         669       1  0 11:46 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        697     624  0 11:46 ?        00:00:00 avahi-daemon: chroot helper
+root         714       1  0 11:46 ?        00:00:00 /usr/sbin/ModemManager
+root         717       1  0 11:46 ?        00:00:00 /usr/sbin/cupsd -l
+root         722       1  0 11:46 ?        00:00:01 /usr/bin/python3 /usr/bin/glances -s -B 127.0.0.1
+root         753       1  0 11:46 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+lp           755     717  0 11:46 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+root         772       1  0 11:46 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops     779       1  0 11:46 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     782       1  0 11:46 ?        00:00:00 /usr/sbin/kerneloops
+root         971       1  0 11:47 ?        00:00:04 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root         980       1  0 11:47 ?        00:00:00 /usr/sbin/gdm3
+root         985     980  0 11:47 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+alumno       993       1  0 11:47 ?        00:00:00 /lib/systemd/systemd --user
+alumno       994     993  0 11:47 ?        00:00:00 (sd-pam)
+alumno      1000     993  0 11:47 ?        00:00:00 /usr/bin/pipewire
+alumno      1001     993  0 11:47 ?        00:00:00 /usr/bin/pipewire-media-session
+alumno      1002     993  0 11:47 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+alumno      1007       1  0 11:47 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rtkit       1012       1  0 11:47 ?        00:00:00 /usr/libexec/rtkit-daemon
+alumno      1019     985  0 11:47 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --sess
+alumno      1022     993  0 11:47 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --sysl
+alumno      1030    1019  0 11:47 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+alumno      1031     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd
+alumno      1050     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+alumno      1052     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-document-portal
+alumno      1067     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-permission-store
+root        1076    1052  0 11:47 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+alumno      1108     993  0 11:47 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+alumno      1119     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+alumno      1134     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+alumno      1153     993  1 11:47 ?        00:06:04 /usr/bin/gnome-shell
+alumno      1154    1134  0 11:47 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+alumno      1163    1154  0 11:47 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print
+alumno      1182     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+alumno      1189     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+alumno      1193     993  0 11:47 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+alumno      1200     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+alumno      1204     993  0 11:47 ?        00:00:00 /usr/libexec/goa-daemon
+alumno      1252     993  0 11:47 ?        00:00:00 /usr/libexec/goa-identity-service
+alumno      1258     993  0 11:47 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1264       1  0 11:47 ?        00:00:00 /usr/libexec/upowerd
+alumno      1313     993  0 11:47 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+alumno      1319     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-source-registry
+alumno      1326     993  0 11:47 ?        00:00:00 /usr/libexec/dconf-service
+alumno      1331     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+root        1340       1  0 11:47 ?        00:00:08 /usr/libexec/packagekitd
+alumno      1342     993  0 11:47 ?        00:00:01 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+alumno      1355     993  0 11:47 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+alumno      1369    1031  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+alumno      1378     993  0 11:47 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+alumno      1380     993  0 11:47 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+alumno      1387     993  0 11:47 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+alumno      1389     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+alumno      1391    1387  0 11:47 ?        00:00:09 /usr/bin/ibus-daemon --panel disable
+alumno      1393     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-color
+alumno      1394     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-datetime
+alumno      1399     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-housekeeping
+alumno      1404     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-keyboard
+alumno      1406     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-media-keys
+alumno      1409     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-power
+alumno      1410     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-print-notifications
+alumno      1413     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-rfkill
+alumno      1414     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+alumno      1418     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-sharing
+alumno      1424     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-smartcard
+alumno      1430     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-sound
+alumno      1432     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-wacom
+alumno      1465    1134  0 11:47 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+alumno      1468    1391  0 11:47 ?        00:00:00 /usr/libexec/ibus-dconf
+alumno      1469    1391  0 11:47 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+alumno      1477     993  0 11:47 ?        00:00:00 /usr/libexec/ibus-portal
+alumno      1482    1134  0 11:47 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+alumno      1511     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-printer
+alumno      1532     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+alumno      1533    1532  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+alumno      1550    1153  0 11:47 ?        00:00:06 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.S
+alumno      1564     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --seamless
+alumno      1565    1564  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --seamless
+alumno      1570     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+alumno      1571    1570  0 11:47 ?        00:01:05 /usr/bin/VBoxClient --draganddrop
+alumno      1574     993  0 11:47 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+root        1575    1574  0 11:47 ?        00:00:00 
+alumno      1586    1391  0 11:47 ?        00:00:03 /usr/libexec/ibus-engine-simple
+alumno      1624     993  0 11:47 ?        00:00:14 /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+alumno      1654     993  0 11:47 ?        00:00:00 /usr/libexec/gsd-xsettings
+colord      1658       1  0 11:47 ?        00:00:00 /usr/libexec/colord
+alumno      1669     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+alumno      1675     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+alumno      1696     993  0 11:47 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+alumno      1735     993  0 11:47 ?        00:00:00 /usr/libexec/ibus-x11
+alumno      1745    1153  0 11:47 ?        00:00:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/ext
+alumno      1812    1342  0 11:47 ?        00:00:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+alumno      1818     993  0 11:47 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+alumno      1971     993  0 11:47 ?        00:00:00 /usr/libexec/gvfsd-metadata
+alumno      1988     993  0 11:47 ?        00:00:45 /usr/libexec/gnome-terminal-server
+alumno      2007    1988  0 11:47 pts/0    00:00:00 bash
+alumno      2454    1134  0 11:48 ?        00:00:01 update-notifier
+alumno      3810     993  0 12:05 ?        00:00:00 /usr/bin/snap userd
+alumno      4414     993  0 12:08 ?        00:00:13 /usr/bin/nautilus --gapplication-service
+alumno      4456     993  0 12:09 ?        00:00:05 /usr/bin/gedit --gapplication-service
+alumno      6197    1153  0 16:07 ?        00:00:35 /snap/firefox/2211/usr/lib/firefox/firefox
+alumno      6315    6197  0 16:08 ?        00:00:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -parentBuildID 20221216042651 -prefsLen 25
+alumno      6352    6197  0 16:08 ?        00:00:01 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 25748 -
+alumno      6513    6197  0 16:08 ?        00:00:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 31232 -
+alumno      6782    6197  0 16:08 ?        00:00:04 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 31232 -
+alumno      6897     993  0 16:09 ?        00:00:01 file-roller /home/alumno/Descargas/Archivo comprimido.zip
+root        7125       2  0 16:14 ?        00:00:00 [kworker/0:0-events]
+root        7227       2  0 16:23 ?        00:00:03 [kworker/0:1-events]
+alumno      7228    2007  0 16:24 pts/0    00:00:00 script -a typescript_prac8_bol1
+alumno      7229    7228  0 16:24 pts/1    00:00:00 bash -i
+root        7282       2  0 16:47 ?        00:00:00 [kworker/u2:3-events_unbound]
+root        7347       2  0 16:57 ?        00:00:00 [kworker/u2:1-events_unbound]
+alumno      7364     993  0 17:00 ?        00:00:02 /usr/libexec/gnome-shell-portal-helper
+alumno      7383    7364  0 17:00 ?        00:00:00 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitNetworkProcess 1 17
+alumno      7391    7364  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 28 -- /usr/bin/xdg-dbus-proxy --args=25
+alumno      7392    7391  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 28 -- /usr/bin/xdg-dbus-proxy --args=25
+alumno      7393    7392  0 17:01 ?        00:00:00 /usr/bin/xdg-dbus-proxy --args=25
+alumno      7395    7364  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 25 -- /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+alumno      7396    7395  0 17:01 ?        00:00:00 /usr/bin/bwrap --args 25 -- /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+alumno      7397    7396  0 17:01 ?        00:00:01 /usr/lib/x86_64-linux-gnu/webkit2gtk-4.0/WebKitWebProcess 11 19
+root        7504       2  0 17:17 ?        00:00:00 [kworker/u2:0-events_unbound]
+root        7546       2  0 17:23 ?        00:00:00 [kworker/u2:2-events_unbound]
+alumno      7558    7229  0 17:28 pts/1    00:00:00 gdb hola.static
+alumno      7562    7558  0 17:28 pts/1    00:00:00 /home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.static
+alumno      7568    7229  0 17:29 pts/1    00:00:00 ps -Af
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ pgrep hola.static
+[?2004l7562
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ pmP[KA[Kap 7562
+[?2004l7562:   /home/alumno/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola/hola.static
+0000000000400000      4K r---- hola.static
+0000000000401000    604K r-x-- hola.static
+0000000000498000    164K r---- hola.static
+00000000004c1000     16K r---- hola.static
+00000000004c5000     12K rw--- hola.static
+00000000004c8000    156K rw---   [ anon ]
+00007ffff7ff9000     16K r----   [ anon ]
+00007ffff7ffd000      8K r-x--   [ anon ]
+00007ffffffde000    132K rw---   [ pila ]
+ffffffffff600000      4K --x--   [ anon ]
+ total             1116K
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ # a las 5 primeras regiones de memoria son para main y e[Klas 5 restantes  para puts
+[?2004l[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ exit
+[?2004lexit
+Hay trabajos detenidos.
+[?2004h]0;alumno@alumno-VirtualBox: ~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[01;32malumno@alumno-VirtualBox[00m:[01;34m~/FC/fc-alumno/prac8/Archivo comprimido/boletin1/hola[00m$ exit
+[?2004lexit
+[?2004lException ignored in: <gdb._GdbOutputFile object at 0x7efc43f625c0>
+Traceback (most recent call last):
+  File "/usr/share/gdb/python/gdb/__init__.py", line 47, in flush
+    def flush(self):
+KeyboardInterrupt: 
+
+Script done on 2022-12-21 17:33:09+01:00 [COMMAND_EXIT_CODE="1"]
